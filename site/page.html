@@ -30,7 +30,8 @@ body::after { content: ""; position: fixed; inset: 0; pointer-events: none; z-in
               radial-gradient(ellipse 60% 40% at 50% 110%, rgba(214,186,128,.06), transparent 70%); }
 .wrap { position: relative; z-index: 1; max-width: 1040px; margin: 0 auto; padding-block: 40px 72px;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
-  display: grid; gap: 72px; }
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: 72px; }
+.wrap > * { min-width: 0; }
 a { color: var(--gold); }
 :focus-visible { outline: 1px solid var(--gold-hi); outline-offset: 3px; }
 .foil { background: linear-gradient(100deg, var(--gold-lo), var(--gold-hi) 35%, var(--gold) 55%, var(--gold-hi) 75%, var(--gold-lo));
