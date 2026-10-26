@@ -1,0 +1,310 @@
+<title>Sug'urta Ishonch Reytingi</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@300;400;500&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: mukofot marosimi — tun fonida sahna (TOP-3 sovrin kartalari), keyin oltin chiziqli reyting ro'yxati, so'ng ochiq lavha. Bitta qorong'i uslub, ataylab. */
+:root {
+  --night: #090b11;
+  --velvet: #10141f;
+  --ivory: #f2ece0;
+  --mist: #9a9fae;
+  --line: rgba(214, 186, 128, .22);
+  --gold: #d6ba80;
+  --gold-hi: #f3e2b6;
+  --gold-lo: #9c7b3e;
+  --silver-hi: #f1f3f6; --silver-lo: #8d939e;
+  --bronze-hi: #f0c39a; --bronze-lo: #8e5a33;
+  --ok: #8fd3ad;
+  --no: #e59a8c;
+  --f-display: "Cormorant Garamond", "Times New Roman", Georgia, serif;
+  --f-body: "Jost", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--night); color: var(--ivory); font: 300 16px/1.6 var(--f-body); }
+body::after { content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(214,186,128,.16), transparent 60%),
+              radial-gradient(ellipse 60% 40% at 50% 110%, rgba(214,186,128,.06), transparent 70%); }
+.wrap { position: relative; z-index: 1; max-width: 1040px; margin: 0 auto; padding-block: 40px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 72px; }
+a { color: var(--gold); }
+:focus-visible { outline: 1px solid var(--gold-hi); outline-offset: 3px; }
+.foil { background: linear-gradient(100deg, var(--gold-lo), var(--gold-hi) 35%, var(--gold) 55%, var(--gold-hi) 75%, var(--gold-lo));
+  -webkit-background-clip: text; background-clip: text; color: transparent; }
+.eyebrow { font: 400 12px/1.3 var(--f-body); letter-spacing: .32em; text-transform: uppercase; color: var(--gold); }
+
+/* Sahna sarlavhasi */
+.hero { text-align: center; display: grid; justify-items: center; gap: 18px; }
+.crest { width: 64px; height: 64px; border: 1px solid var(--gold); border-radius: 50%; display: grid; place-items: center; position: relative; }
+.crest::before { content: ""; position: absolute; inset: 5px; border: 1px solid var(--line); border-radius: 50%; }
+.crest span { font: italic 600 22px/1 var(--f-display); }
+h1 { margin: 0; font: 500 clamp(44px, 9vw, 96px)/.95 var(--f-display); letter-spacing: -.01em; text-wrap: balance; }
+h1 i { font-style: italic; }
+.lede { margin: 0; max-width: 58ch; color: var(--mist); font-size: 17px; }
+.live { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 22px; font: 400 13px/1.3 var(--f-body); color: var(--mist); letter-spacing: .04em; }
+.live b { color: var(--ivory); font-weight: 400; }
+.dot { width: 7px; height: 7px; border-radius: 50%; background: var(--ok); display: inline-block; margin-right: 8px; vertical-align: 1px; animation: glow 2.4s ease-in-out infinite; }
+.stale .dot { background: var(--gold); animation: none; }
+@keyframes glow { 50% { opacity: .35; } }
+.cta { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; color: var(--night);
+  background: linear-gradient(100deg, var(--gold-lo), var(--gold-hi) 50%, var(--gold)); padding: 15px 28px; border-radius: 2px;
+  font: 500 13px/1 var(--f-body); letter-spacing: .22em; text-transform: uppercase; }
+.cta:hover { filter: brightness(1.08); }
+.sample { font: 400 12px/1.4 var(--f-mono); color: var(--gold); border: 1px dashed var(--line); padding: 8px 14px; }
+
+/* Hisob */
+.counts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-block: 1px solid var(--line); }
+.counts div { padding: 22px 8px; text-align: center; display: grid; gap: 4px; }
+.counts div + div { border-left: 1px solid var(--line); }
+.counts b { font: 500 clamp(30px, 5vw, 46px)/1 var(--f-display); font-variant-numeric: lining-nums tabular-nums; }
+.counts span { font: 400 11px/1.3 var(--f-body); letter-spacing: .24em; text-transform: uppercase; color: var(--mist); }
+
+h2 { margin: 0; font: 500 clamp(30px, 4.5vw, 44px)/1.05 var(--f-display); text-wrap: balance; }
+.sec-head { display: grid; justify-items: center; text-align: center; gap: 8px; margin-bottom: 36px; }
+.sec-head p { margin: 0; color: var(--mist); font-size: 14px; }
+
+/* Sovrin kartalari */
+.podium { display: grid; grid-template-columns: 1fr 1.18fr 1fr; align-items: end; gap: 18px; }
+.prize { position: relative; text-align: center; padding: 34px 22px 28px; border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,0)), var(--velvet); display: grid; gap: 10px; justify-items: center; }
+.prize::before { content: ""; position: absolute; inset: 6px; border: 1px solid rgba(214,186,128,.08); pointer-events: none; }
+.prize.p1 { order: 2; padding-block: 48px 36px; border-color: var(--gold); box-shadow: 0 30px 80px -30px rgba(214,186,128,.35); }
+.prize.p2 { order: 1; } .prize.p3 { order: 3; }
+.medal { width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center; font: italic 600 28px/1 var(--f-display); color: var(--night);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0 6px 18px rgba(0,0,0,.45); }
+.p1 .medal { width: 72px; height: 72px; font-size: 34px; background: radial-gradient(circle at 35% 30%, var(--gold-hi), var(--gold) 45%, var(--gold-lo)); }
+.p2 .medal { background: radial-gradient(circle at 35% 30%, var(--silver-hi), #c3c8d0 45%, var(--silver-lo)); }
+.p3 .medal { background: radial-gradient(circle at 35% 30%, var(--bronze-hi), #c08257 45%, var(--bronze-lo)); }
+.prize .place { font: 400 11px/1 var(--f-body); letter-spacing: .3em; text-transform: uppercase; color: var(--mist); }
+.prize .co { font: 600 clamp(22px, 2.6vw, 28px)/1.15 var(--f-display); text-wrap: balance; overflow-wrap: anywhere; }
+.p1 .co { font-size: clamp(26px, 3.2vw, 36px); }
+.prize .v { font: 500 15px/1.2 var(--f-body); letter-spacing: .06em; font-variant-numeric: tabular-nums; }
+.prize .v small { color: var(--mist); font-weight: 300; }
+
+/* Ro'yxat */
+.board { list-style: none; margin: 40px 0 0; padding: 0; display: grid; }
+.row { display: grid; grid-template-columns: 56px minmax(0, 1fr) auto; align-items: baseline; gap: 6px 18px; padding: 16px 4px; border-bottom: 1px solid var(--line); }
+.row:first-child { border-top: 1px solid var(--line); }
+.rank { font: italic 500 24px/1 var(--f-display); color: var(--gold); font-variant-numeric: lining-nums tabular-nums; }
+.name { font: 500 21px/1.25 var(--f-display); min-width: 0; overflow-wrap: anywhere; }
+.score { text-align: right; font: 400 15px/1.2 var(--f-body); font-variant-numeric: tabular-nums; letter-spacing: .04em; }
+.score small { color: var(--mist); margin-left: 8px; }
+.bar { grid-column: 2 / 4; height: 1px; background: var(--line); position: relative; margin-top: 6px; }
+.bar i { position: absolute; left: 0; top: -1px; height: 3px; background: linear-gradient(90deg, var(--gold-lo), var(--gold-hi)); transition: width .8s ease; }
+.row.zero .name, .row.zero .score, .row.zero .rank { color: var(--mist); opacity: .7; }
+.more { display: block; margin: 26px auto 0; background: none; border: 1px solid var(--line); color: var(--gold); padding: 13px 24px; border-radius: 2px;
+  font: 400 12px/1 var(--f-body); letter-spacing: .22em; text-transform: uppercase; cursor: pointer; }
+.more:hover { border-color: var(--gold); }
+
+/* Ochiq lavha */
+.tools { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+.tools input { flex: 1 1 240px; min-width: 0; font: 300 15px/1.2 var(--f-body); padding: 13px 16px; border: 1px solid var(--line); background: var(--velvet); color: var(--ivory); border-radius: 2px; }
+.tools input::placeholder { color: var(--mist); }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { font: 400 12px/1 var(--f-body); letter-spacing: .14em; text-transform: uppercase; padding: 12px 14px; border-radius: 2px; border: 1px solid var(--line); background: transparent; color: var(--mist); cursor: pointer; }
+.chip[aria-pressed="true"] { color: var(--night); background: var(--gold); border-color: var(--gold); }
+.ledger-box { overflow-x: auto; border: 1px solid var(--line); background: var(--velvet); }
+table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 660px; }
+th { text-align: left; font: 400 11px/1.2 var(--f-body); text-transform: uppercase; letter-spacing: .2em; color: var(--gold); padding: 14px 16px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 11px 16px; border-bottom: 1px solid rgba(214,186,128,.09); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td.t, td.u { font: 400 13px/1.5 var(--f-mono); white-space: nowrap; color: var(--mist); }
+td.u { color: var(--ivory); }
+td.c { max-width: 30ch; overflow-wrap: anywhere; color: var(--mist); }
+tr.hit td { background: rgba(214,186,128,.1); }
+.pill { font: 400 12px/1.2 var(--f-body); letter-spacing: .04em; white-space: nowrap; }
+.pill::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-right: 8px; vertical-align: 1px; background: currentColor; }
+.pill.ok { color: var(--ok); } .pill.no { color: var(--no); }
+.pager { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 14px; font: 400 13px/1.3 var(--f-body); color: var(--mist); flex-wrap: wrap; }
+.pager button { font: 400 12px/1 var(--f-body); letter-spacing: .12em; text-transform: uppercase; padding: 10px 14px; border-radius: 2px; border: 1px solid var(--line); background: transparent; color: var(--ivory); cursor: pointer; }
+.pager button:disabled { opacity: .35; cursor: default; }
+.empty { padding: 30px 16px; text-align: center; color: var(--mist); }
+
+/* Qoidalar: ochiladigan blok */
+.rules { width: min(100%, 620px); text-align: left; border: 1px solid var(--gold); background: var(--velvet); }
+.rules summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 2px 16px; padding: 16px 20px; }
+.rules summary::-webkit-details-marker { display: none; }
+.rules summary:hover { background: rgba(214,186,128,.06); }
+.rules-title { font: 600 22px/1.2 var(--f-display); color: var(--gold-hi); }
+.rules-hint { grid-row: 2; font: 400 12px/1.3 var(--f-body); letter-spacing: .08em; color: var(--mist); }
+.chev { grid-row: 1 / 3; grid-column: 2; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 50%; position: relative; transition: transform .25s ease; }
+.chev::before { content: ""; position: absolute; left: 50%; top: 45%; width: 8px; height: 8px; border-right: 1.5px solid var(--gold); border-bottom: 1.5px solid var(--gold); transform: translate(-50%, -50%) rotate(45deg); }
+.rules[open] .chev { transform: rotate(180deg); }
+.rules[open] .rules-hint::after { content: " · yopish uchun bosing"; }
+.rules ol { margin: 0; padding: 4px 20px 20px; list-style: none; counter-reset: r; display: grid; gap: 12px; border-top: 1px solid var(--line); padding-top: 16px; }
+.rules li { counter-increment: r; display: grid; grid-template-columns: 32px 1fr; color: var(--ivory); font-size: 15px; }
+.rules li::before { content: counter(r, upper-roman); font: italic 500 18px/1.4 var(--f-display); color: var(--gold); }
+.rules b { font-weight: 500; color: var(--gold-hi); }
+.foot { font: 400 12px/1.6 var(--f-body); letter-spacing: .06em; color: var(--mist); display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 24px; text-align: center; }
+
+@media (max-width: 680px) {
+  .podium { grid-template-columns: 1fr; }
+  .prize.p1, .prize.p2, .prize.p3 { order: 0; }
+  .wrap { gap: 56px; }
+  .counts div { padding-inline: 4px; }
+  .counts span { letter-spacing: .14em; }
+}
+@media (prefers-reduced-motion: reduce) { .dot { animation: none; } .bar i { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header class="hero">
+    <div class="crest" aria-hidden="true"><span class="foil">IR</span></div>
+    <div class="eyebrow">O'zbekiston sug'urta bozori · Mijozlar tanlovi 2026</div>
+    <h1><span class="foil">Ishonch</span> <i>reytingi</i></h1>
+    <p class="lede">Mijozlar eng ko'p ishonch bildirgan sug'urta kompaniyalari. Bozordagi 35 ta kompaniyaning har biri o'z mijozlariga xizmat qiladi; bu reytingda esa mijozlarning o'zi so'z oladi. Har bir ovoz quyidagi ochiq lavhada hammaga ko'rinib turadi.</p>
+    <div class="live"><span id="liveState"><span class="dot"></span><span>Jonli hisob</span></span><span id="updated">Yuklanmoqda…</span><span id="deadline"></span></div>
+    <a class="cta" id="cta" href="https://www.instagram.com/ins24uz/" target="_blank" rel="noopener">Ishonch bildirish</a>
+    <details class="rules" id="rules">
+      <summary><span class="rules-title">Ovoz berish qoidalari</span><span class="rules-hint">5 ta qoida · ochish uchun bosing</span><span class="chev" aria-hidden="true"></span></summary>
+      <ol>
+        <li>Challenge Reels'i ostiga o'zingiz ishonadigan <b>bitta kompaniya nomini</b> izoh qilib yozing.</li>
+        <li><b>Bir akkauntdan bitta ovoz</b>: faqat birinchi to'g'ri izoh hisoblanadi.</li>
+        <li>Hayot sug'urtasi uchun to'liq yozing: <b>Apex Life, Kafolat Hayot, O'zbekinvest Hayot, Alfa Life</b>. Faqat "Apex" deb yozilsa, ovoz umumiy sug'urta kompaniyasiga beriladi.</li>
+        <li>Bir izohda ikki va undan ortiq nom bo'lsa, ovoz <b>hisoblanmaydi</b>.</li>
+        <li>Ovoz berish Reels joylangan kundan boshlab <b>14 kun</b> davom etadi (oxirgi kuni soat 23:59 gacha, Toshkent vaqti). Muddatdan keyingi izohlar hisoblanmaydi. Qoidalar boshlanishdan oldin e'lon qilingan va o'zgarmaydi.</li>
+      </ol>
+    </details>
+    <div class="sample" id="sample" hidden>Namuna ma'lumot: challenge hali boshlanmagan, raqamlar sinov uchun</div>
+  </header>
+
+  <section class="counts" aria-label="Umumiy hisob">
+    <div><b id="nTotal" class="foil">–</b><span>Izohlar</span></div>
+    <div><b id="nCounted" class="foil">–</b><span>Ishonch ovozlari</span></div>
+    <div><b id="nRejected" class="foil">–</b><span>Rad etilgan</span></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><div class="eyebrow">Ishonch sovrindorlari</div><h2>Mijozlar eng ko'p ishonch bildirgan kompaniyalar</h2><p id="boardNote"></p></div>
+    <div class="podium" id="podium"></div>
+    <ol class="board" id="board"></ol>
+    <button class="more" id="more" type="button">Barcha kompaniyalar</button>
+  </section>
+
+  <section>
+    <div class="sec-head"><div class="eyebrow">Ochiq lavha</div><h2>Har bir ovoz shu yerda</h2><p>Nikingizni yozing va ovozingiz qaysi kompaniyaga hisoblanganini ko'ring</p></div>
+    <div class="tools">
+      <input id="q" type="search" placeholder="@nikingiz yoki kompaniya nomi" aria-label="Qidirish">
+      <div class="chips" role="group" aria-label="Holat bo'yicha">
+        <button class="chip" type="button" data-f="all" aria-pressed="true">Hammasi</button>
+        <button class="chip" type="button" data-f="ok" aria-pressed="false">Hisoblandi</button>
+        <button class="chip" type="button" data-f="no" aria-pressed="false">Rad etildi</button>
+      </div>
+    </div>
+    <div class="ledger-box">
+      <table>
+        <thead><tr><th>Vaqt</th><th>Akkaunt</th><th>Izoh</th><th>Kompaniya</th><th>Holat</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <div class="pager"><span id="pinfo"></span><span><button id="prev" type="button">← Oldingi</button> <button id="next" type="button">Keyingi →</button></span></div>
+  </section>
+
+  <footer class="foot"><span>Ma'lumot manbai: Instagram Graph API · @ins24uz</span><a href="votes.csv" target="_blank" rel="noopener">Barcha izohlar (CSV)</a><span>Muddat tugagach yakuniy ro'yxat muhrlanadi</span></footer>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const fmt = new Intl.NumberFormat("ru-RU");
+const PAGE = 50;
+const ROMAN = ["I", "II", "III"];
+let data = null, showAll = false, filter = "all", page = 0;
+
+function tashkent(iso) {
+  const p = Object.fromEntries(new Intl.DateTimeFormat("ru-RU", { timeZone: "Asia/Tashkent", day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" })
+    .formatToParts(new Date(iso)).map(x => [x.type, x.value]));
+  return `${p.day}.${p.month}.${p.year} ${p.hour}:${p.minute}`;
+}
+function ago(iso) {
+  const m = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (m < 1) return "hozirgina";
+  if (m < 60) return `${m} daqiqa oldin`;
+  const h = Math.round(m / 60);
+  return h < 24 ? `${h} soat oldin` : tashkent(iso);
+}
+function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+const pct = (v) => data.counted_votes ? (v / data.counted_votes * 100).toFixed(1) + "%" : "0%";
+
+function renderTop() {
+  $("updated").innerHTML = `Yangilandi: <b>${ago(data.updated_at)}</b>`;
+  $("updated").title = tashkent(data.updated_at) + " (Toshkent vaqti)";
+  const stale = Date.now() - new Date(data.updated_at) > 30 * 60000;
+  $("liveState").className = stale ? "stale" : "";
+  $("liveState").lastChild.textContent = stale ? "Yangilanish kechikmoqda" : "Jonli hisob";
+  if (data.deadline) {
+    const left = new Date(data.deadline) - Date.now();
+    $("deadline").innerHTML = left > 0 ? `Yakunlanishiga: <b>${Math.floor(left / 864e5)} kun ${Math.floor(left % 864e5 / 36e5)} soat</b>` : "<b>Ovoz berish yakunlandi</b>";
+  }
+  if (data.permalink) $("cta").href = data.permalink;
+  $("sample").hidden = !data.sample;
+  $("nTotal").textContent = fmt.format(data.total_comments);
+  $("nCounted").textContent = fmt.format(data.counted_votes);
+  $("nRejected").textContent = fmt.format(data.total_comments - data.counted_votes);
+}
+
+function renderBoard() {
+  const top = data.ranking.filter(r => r.votes).slice(0, 3);
+  $("podium").innerHTML = top.map((r, i) => `<article class="prize p${i + 1}">
+      <div class="medal">${ROMAN[i]}</div><div class="place">${i + 1}-o'rin</div>
+      <div class="co ${i === 0 ? "foil" : ""}">${esc(r.name)}</div>
+      <div class="v">${fmt.format(r.votes)} ovoz <small>· ${pct(r.votes)}</small></div></article>`).join("");
+  $("podium").hidden = !top.length;
+  const rest = data.ranking.slice(top.length);
+  const max = Math.max(1, ...data.ranking.map(r => r.votes));
+  const list = showAll ? rest : rest.slice(0, 7);
+  $("board").innerHTML = list.map(r => `<li class="row ${r.votes ? "" : "zero"}"><span class="rank">${r.rank}</span><span class="name">${esc(r.name)}</span>
+      <span class="score">${r.votes ? `${fmt.format(r.votes)}<small>${pct(r.votes)}</small>` : "<small>ovozlar kutilmoqda</small>"}</span>
+      <span class="bar"><i style="width:${(r.votes / max * 100).toFixed(1)}%"></i></span></li>`).join("");
+  $("more").textContent = showAll ? "Faqat TOP-10" : `Barcha ${data.ranking.length} ta kompaniya`;
+  $("boardNote").textContent = `${data.ranking.length} ta kompaniya · foizlar ishonch ovozlaridan`;
+}
+
+function renderLedger() {
+  const q = $("q").value.trim().toLowerCase().replace(/^@/, "");
+  const rows = data.votes.filter(v =>
+    (filter === "all" || (filter === "ok") === (v.status === "hisoblandi")) &&
+    (!q || v.username.toLowerCase().includes(q) || (v.company_name || "").toLowerCase().includes(q) || v.text.toLowerCase().includes(q))
+  ).reverse();
+  const pages = Math.max(1, Math.ceil(rows.length / PAGE));
+  page = Math.min(page, pages - 1);
+  const slice = rows.slice(page * PAGE, page * PAGE + PAGE);
+  $("rows").innerHTML = slice.length ? slice.map(v => {
+    const ok = v.status === "hisoblandi";
+    return `<tr class="${q && v.username.toLowerCase() === q ? "hit" : ""}"><td class="t">${tashkent(v.timestamp)}</td><td class="u">@${esc(v.username)}</td><td class="c">${esc(v.text)}</td>
+      <td>${esc(v.company_name || "—")}</td><td><span class="pill ${ok ? "ok" : "no"}">${ok ? "Hisoblandi" : esc(v.reason)}</span></td></tr>`;
+  }).join("") : `<tr><td colspan="5" class="empty">${q ? "Bu nik yoki nom bo'yicha izoh topilmadi." : "Hozircha izohlar yo'q."}</td></tr>`;
+  $("pinfo").textContent = rows.length ? `${page * PAGE + 1}–${page * PAGE + slice.length} / ${fmt.format(rows.length)} ta izoh` : "";
+  $("prev").disabled = page === 0;
+  $("next").disabled = page >= pages - 1;
+}
+
+function render() { renderTop(); renderBoard(); renderLedger(); }
+
+async function load() {
+  try {
+    const r = await fetch("data.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    data = await r.json();
+    render();
+  } catch (e) {
+    if (!data) $("updated").textContent = "Ma'lumot yuklanmadi, sahifani yangilang";
+  }
+}
+
+$("more").onclick = () => { showAll = !showAll; renderBoard(); };
+$("q").oninput = () => { page = 0; renderLedger(); };
+document.querySelectorAll(".chip").forEach(b => b.onclick = () => {
+  filter = b.dataset.f; page = 0;
+  document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderLedger();
+});
+$("prev").onclick = () => { page--; renderLedger(); };
+$("next").onclick = () => { page++; renderLedger(); };
+
+load();
+setInterval(load, 60000);
+</script>

@@ -1,0 +1,5 @@
+# Maxfiy kalitlar va tokenlar — hech qachon GitHub'ga yuklanmaydi
+.env
+output/
+__pycache__/
+qollanma_*.png
