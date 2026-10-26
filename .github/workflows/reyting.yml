@@ -2,7 +2,7 @@
 # Sozlamalar (Settings → Secrets and variables → Actions):
 #   Secret   IG_TOKEN    — Ins24.uz sahifasining tokeni
 #   Variable IG_USER_ID  — 17841415393218526
-#   Variable VOTE_ARGS   — challenge oldidan "--sample", boshlangach "--latest-reel --days 30"
+#   Variable VOTE_ARGS   — challenge oldidan "--empty" (hammasi 0), boshlangach "--latest-reel --days 30"
 name: Ishonch reytingi
 
 on:
@@ -36,7 +36,7 @@ jobs:
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ vars.IG_USER_ID }}
-        run: python vote_counter.py ${{ vars.VOTE_ARGS || '--sample' }}
+        run: python vote_counter.py ${{ vars.VOTE_ARGS || '--empty' }}
       - name: Sinovlar
         run: python test_vote_counter.py
       - uses: actions/configure-pages@v5

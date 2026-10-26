@@ -234,6 +234,7 @@ def main():
     p.add_argument("--media")
     p.add_argument("--latest-reel", action="store_true")
     p.add_argument("--sample", action="store_true", help="namuna ma'lumot bilan sahifa yasash")
+    p.add_argument("--empty", action="store_true", help="challenge boshlanishidan oldin: hamma joyda 0")
     p.add_argument("--deadline", help="ISO vaqt, masalan 2026-11-30T23:59:59+05:00")
     p.add_argument("--days", type=int, help="muddat: joylangan kun 1-kun; N-kun tugashi bilan (tungi 00:00, Toshkent) yopiladi")
     a = p.parse_args()
@@ -241,7 +242,9 @@ def main():
     aliases, names = load_companies()
     media_id = permalink = None
     posted = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=3)
-    if a.sample:
+    if a.empty:
+        comments = []
+    elif a.sample:
         comments = sample_comments(names)
     else:
         env = read_env()
@@ -252,7 +255,7 @@ def main():
         permalink = info.get("permalink")
         posted = dt.datetime.fromisoformat(info["timestamp"].replace("+0000", "+00:00"))
         comments = fetch_comments(env, media_id)
-    if a.days and not a.deadline:
+    if a.days and not a.deadline and not a.empty:
         tk = dt.timezone(dt.timedelta(hours=5))
         day = posted.astimezone(tk).date() + dt.timedelta(days=a.days)
         a.deadline = dt.datetime.combine(day, dt.time(0, 0), tk).isoformat()
@@ -265,6 +268,7 @@ def main():
         "media_id": media_id,
         "permalink": permalink,
         "sample": a.sample,
+        "pending": a.empty,
         "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "deadline": a.deadline,
         "total_comments": len(rows),

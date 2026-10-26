@@ -236,7 +236,9 @@ function renderTop() {
   const stale = Date.now() - new Date(data.updated_at) > 30 * 60000;
   $("liveState").className = stale ? "stale" : "";
   $("liveState").lastChild.textContent = stale ? "Yangilanish kechikmoqda" : "Jonli hisob";
-  if (data.deadline) {
+  if (data.pending) {
+    $("deadline").innerHTML = "<b>Ovoz berish tez orada boshlanadi</b>";
+  } else if (data.deadline) {
     const left = new Date(data.deadline) - Date.now();
     $("deadline").innerHTML = left > 0 ? `Yakunlanishiga: <b>${Math.floor(left / 864e5)} kun ${Math.floor(left % 864e5 / 36e5)} soat</b>` : "<b>Ovoz berish yakunlandi</b>";
   }
@@ -277,7 +279,7 @@ function renderLedger() {
     const ok = v.status === "hisoblandi";
     return `<tr class="${q && v.username.toLowerCase() === q ? "hit" : ""}"><td class="t">${tashkent(v.timestamp)}</td><td class="u">@${esc(v.username)}</td><td class="c">${esc(v.text)}</td>
       <td>${esc(v.company_name || "—")}${v.approx && v.company_name ? `<small class="approx">«${esc(v.approx)}» deb yozilgan</small>` : ""}</td><td><span class="pill ${ok ? "ok" : "no"}">${ok ? (v.approx ? "Hisoblandi · taxminiy" : "Hisoblandi") : esc(v.reason)}</span></td></tr>`;
-  }).join("") : `<tr><td colspan="5" class="empty">${q ? "Bu nik yoki nom bo'yicha izoh topilmadi." : "Hozircha izohlar yo'q."}</td></tr>`;
+  }).join("") : `<tr><td colspan="5" class="empty">${q ? "Bu nik yoki nom bo'yicha izoh topilmadi." : data.pending ? "Ovoz berish boshlangach, har bir izoh shu yerda paydo bo'ladi." : "Hozircha izohlar yo'q."}</td></tr>`;
   $("pinfo").textContent = rows.length ? `${page * PAGE + 1}–${page * PAGE + slice.length} / ${fmt.format(rows.length)} ta izoh` : "";
   $("prev").disabled = page === 0;
   $("next").disabled = page >= pages - 1;
