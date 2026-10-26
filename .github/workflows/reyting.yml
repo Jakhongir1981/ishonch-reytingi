@@ -2,7 +2,7 @@
 # Sozlamalar (Settings → Secrets and variables → Actions):
 #   Secret   IG_TOKEN    — Ins24.uz sahifasining tokeni
 #   Variable IG_USER_ID  — 17841415393218526
-#   Variable VOTE_ARGS   — challenge oldidan "--sample", boshlangach "--latest-reel --days 14"
+#   Variable VOTE_ARGS   — challenge oldidan "--sample", boshlangach "--latest-reel --days 30"
 name: Ishonch reytingi
 
 on:

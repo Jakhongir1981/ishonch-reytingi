@@ -2,8 +2,8 @@
  "media_id": null,
  "permalink": null,
  "sample": true,
- "updated_at": "2026-10-26T11:03:58+00:00",
- "deadline": "2026-11-06T23:59:59+05:00",
+ "updated_at": "2026-10-26T11:04:27+00:00",
+ "deadline": "2026-11-22T00:00:00+05:00",
  "total_comments": 420,
  "counted_votes": 234,
  "ranking": [
@@ -220,7 +220,7 @@
  ],
  "votes": [
   {
-   "timestamp": "2026-10-23T11:03:58+0000",
+   "timestamp": "2026-10-23T11:04:27+0000",
    "username": "namuna_219",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -229,7 +229,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-23T11:13:58+0000",
+   "timestamp": "2026-10-23T11:14:27+0000",
    "username": "namuna_233",
    "text": "Neo Insurance",
    "company": "neo",
@@ -238,7 +238,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-23T11:23:58+0000",
+   "timestamp": "2026-10-23T11:24:27+0000",
    "username": "namuna_093",
    "text": "Inson",
    "company": "inson",
@@ -247,7 +247,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-23T11:33:58+0000",
+   "timestamp": "2026-10-23T11:34:27+0000",
    "username": "namuna_295",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -256,7 +256,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-23T11:43:58+0000",
+   "timestamp": "2026-10-23T11:44:27+0000",
    "username": "namuna_176",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -265,7 +265,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-23T11:53:58+0000",
+   "timestamp": "2026-10-23T11:54:27+0000",
    "username": "namuna_038",
    "text": "Inson",
    "company": "inson",
@@ -274,7 +274,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-23T12:03:58+0000",
+   "timestamp": "2026-10-23T12:04:27+0000",
    "username": "namuna_176",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -283,7 +283,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-23T12:13:58+0000",
+   "timestamp": "2026-10-23T12:14:27+0000",
    "username": "namuna_021",
    "text": "Temiryo'l Sug'urta",
    "company": "temiryol",
@@ -292,7 +292,7 @@
    "company_name": "Temiryo'l Sug'urta"
   },
   {
-   "timestamp": "2026-10-23T12:23:58+0000",
+   "timestamp": "2026-10-23T12:24:27+0000",
    "username": "namuna_286",
    "text": "O'zbekinvest",
    "company": "uzbekinvest",
@@ -301,7 +301,7 @@
    "company_name": "O'zbekinvest"
   },
   {
-   "timestamp": "2026-10-23T12:33:58+0000",
+   "timestamp": "2026-10-23T12:34:27+0000",
    "username": "namuna_161",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -310,7 +310,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-23T12:43:58+0000",
+   "timestamp": "2026-10-23T12:44:27+0000",
    "username": "namuna_255",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -319,7 +319,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-23T12:53:58+0000",
+   "timestamp": "2026-10-23T12:54:27+0000",
    "username": "namuna_048",
    "text": "Neo Insurance",
    "company": "neo",
@@ -328,7 +328,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-23T13:03:58+0000",
+   "timestamp": "2026-10-23T13:04:27+0000",
    "username": "namuna_341",
    "text": "Neo Insurance",
    "company": "neo",
@@ -337,7 +337,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-23T13:13:58+0000",
+   "timestamp": "2026-10-23T13:14:27+0000",
    "username": "namuna_332",
    "text": "🔥🔥🔥",
    "company": null,
@@ -346,7 +346,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-23T13:23:58+0000",
+   "timestamp": "2026-10-23T13:24:27+0000",
    "username": "namuna_229",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -355,7 +355,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-23T13:33:58+0000",
+   "timestamp": "2026-10-23T13:34:27+0000",
    "username": "namuna_343",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -364,7 +364,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-23T13:43:58+0000",
+   "timestamp": "2026-10-23T13:44:27+0000",
    "username": "namuna_182",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -373,7 +373,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-23T13:53:58+0000",
+   "timestamp": "2026-10-23T13:54:27+0000",
    "username": "namuna_031",
    "text": "Euroasia Insurance",
    "company": "euroasia",
@@ -382,7 +382,7 @@
    "company_name": "Euroasia Insurance"
   },
   {
-   "timestamp": "2026-10-23T14:03:58+0000",
+   "timestamp": "2026-10-23T14:04:27+0000",
    "username": "namuna_379",
    "text": "Inson",
    "company": "inson",
@@ -391,7 +391,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-23T14:13:58+0000",
+   "timestamp": "2026-10-23T14:14:27+0000",
    "username": "namuna_255",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -400,7 +400,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-23T14:23:58+0000",
+   "timestamp": "2026-10-23T14:24:27+0000",
    "username": "namuna_282",
    "text": "Aria Sug'urta yoki Mosaic Insurance Group",
    "company": null,
@@ -409,7 +409,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-23T14:33:58+0000",
+   "timestamp": "2026-10-23T14:34:27+0000",
    "username": "namuna_221",
    "text": "Alfa Invest Sug'urta",
    "company": "alfa_invest",
@@ -418,7 +418,7 @@
    "company_name": "Alfa Invest Sug'urta"
   },
   {
-   "timestamp": "2026-10-23T14:43:58+0000",
+   "timestamp": "2026-10-23T14:44:27+0000",
    "username": "namuna_213",
    "text": "Inson",
    "company": "inson",
@@ -427,7 +427,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-23T14:53:58+0000",
+   "timestamp": "2026-10-23T14:54:27+0000",
    "username": "namuna_195",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -436,7 +436,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-23T15:03:58+0000",
+   "timestamp": "2026-10-23T15:04:27+0000",
    "username": "namuna_091",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -445,7 +445,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-23T15:13:58+0000",
+   "timestamp": "2026-10-23T15:14:27+0000",
    "username": "namuna_007",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -454,7 +454,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-23T15:23:58+0000",
+   "timestamp": "2026-10-23T15:24:27+0000",
    "username": "namuna_135",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -463,7 +463,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-23T15:33:58+0000",
+   "timestamp": "2026-10-23T15:34:27+0000",
    "username": "namuna_274",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -472,7 +472,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-23T15:43:58+0000",
+   "timestamp": "2026-10-23T15:44:27+0000",
    "username": "namuna_065",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -481,7 +481,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-23T15:53:58+0000",
+   "timestamp": "2026-10-23T15:54:27+0000",
    "username": "namuna_317",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -490,7 +490,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-23T16:03:58+0000",
+   "timestamp": "2026-10-23T16:04:27+0000",
    "username": "namuna_234",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -499,7 +499,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-23T16:13:58+0000",
+   "timestamp": "2026-10-23T16:14:27+0000",
    "username": "namuna_349",
    "text": "Ishonch Sug'urta",
    "company": "ishonch",
@@ -508,7 +508,7 @@
    "company_name": "Ishonch Sug'urta"
   },
   {
-   "timestamp": "2026-10-23T16:23:58+0000",
+   "timestamp": "2026-10-23T16:24:27+0000",
    "username": "namuna_205",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -517,7 +517,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-23T16:33:58+0000",
+   "timestamp": "2026-10-23T16:34:27+0000",
    "username": "namuna_206",
    "text": "Temiryo'l Sug'urta",
    "company": "temiryol",
@@ -526,7 +526,7 @@
    "company_name": "Temiryo'l Sug'urta"
   },
   {
-   "timestamp": "2026-10-23T16:43:58+0000",
+   "timestamp": "2026-10-23T16:44:27+0000",
    "username": "namuna_107",
    "text": "Zo'r challenge!",
    "company": null,
@@ -535,7 +535,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-23T16:53:58+0000",
+   "timestamp": "2026-10-23T16:54:27+0000",
    "username": "namuna_308",
    "text": "Kafolat Sug'urta",
    "company": "kafolat",
@@ -544,7 +544,7 @@
    "company_name": "Kafolat Sug'urta"
   },
   {
-   "timestamp": "2026-10-23T17:03:58+0000",
+   "timestamp": "2026-10-23T17:04:27+0000",
    "username": "namuna_291",
    "text": "Zo'r challenge!",
    "company": null,
@@ -553,7 +553,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-23T17:13:58+0000",
+   "timestamp": "2026-10-23T17:14:27+0000",
    "username": "namuna_187",
    "text": "Kafolat Sug'urta",
    "company": "kafolat",
@@ -562,7 +562,7 @@
    "company_name": "Kafolat Sug'urta"
   },
   {
-   "timestamp": "2026-10-23T17:23:58+0000",
+   "timestamp": "2026-10-23T17:24:27+0000",
    "username": "namuna_107",
    "text": "O'zbekinvest",
    "company": "uzbekinvest",
@@ -571,7 +571,7 @@
    "company_name": "O'zbekinvest"
   },
   {
-   "timestamp": "2026-10-23T17:33:58+0000",
+   "timestamp": "2026-10-23T17:34:27+0000",
    "username": "namuna_130",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -580,7 +580,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-23T17:43:58+0000",
+   "timestamp": "2026-10-23T17:44:27+0000",
    "username": "namuna_243",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -589,7 +589,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-23T17:53:58+0000",
+   "timestamp": "2026-10-23T17:54:27+0000",
    "username": "namuna_239",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -598,7 +598,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-23T18:03:58+0000",
+   "timestamp": "2026-10-23T18:04:27+0000",
    "username": "namuna_074",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -607,7 +607,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-23T18:13:58+0000",
+   "timestamp": "2026-10-23T18:14:27+0000",
    "username": "namuna_246",
    "text": "Agros Hayot yoki Inson",
    "company": null,
@@ -616,7 +616,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-23T18:23:58+0000",
+   "timestamp": "2026-10-23T18:24:27+0000",
    "username": "namuna_012",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -625,7 +625,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-23T18:33:58+0000",
+   "timestamp": "2026-10-23T18:34:27+0000",
    "username": "namuna_186",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -634,7 +634,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-23T18:43:58+0000",
+   "timestamp": "2026-10-23T18:44:27+0000",
    "username": "namuna_014",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -643,7 +643,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-23T18:53:58+0000",
+   "timestamp": "2026-10-23T18:54:27+0000",
    "username": "namuna_330",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -652,7 +652,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-23T19:03:58+0000",
+   "timestamp": "2026-10-23T19:04:27+0000",
    "username": "namuna_134",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -661,7 +661,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-23T19:13:58+0000",
+   "timestamp": "2026-10-23T19:14:27+0000",
    "username": "namuna_183",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -670,7 +670,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-23T19:23:58+0000",
+   "timestamp": "2026-10-23T19:24:27+0000",
    "username": "namuna_258",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -679,7 +679,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-23T19:33:58+0000",
+   "timestamp": "2026-10-23T19:34:27+0000",
    "username": "namuna_100",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -688,7 +688,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-23T19:43:58+0000",
+   "timestamp": "2026-10-23T19:44:27+0000",
    "username": "namuna_379",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -697,7 +697,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-23T19:53:58+0000",
+   "timestamp": "2026-10-23T19:54:27+0000",
    "username": "namuna_253",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -706,7 +706,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-23T20:03:58+0000",
+   "timestamp": "2026-10-23T20:04:27+0000",
    "username": "namuna_015",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -715,7 +715,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-23T20:13:58+0000",
+   "timestamp": "2026-10-23T20:14:27+0000",
    "username": "namuna_100",
    "text": "Neo Insurance",
    "company": "neo",
@@ -724,7 +724,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-23T20:23:58+0000",
+   "timestamp": "2026-10-23T20:24:27+0000",
    "username": "namuna_229",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -733,7 +733,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-23T20:33:58+0000",
+   "timestamp": "2026-10-23T20:34:27+0000",
    "username": "namuna_179",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -742,7 +742,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-23T20:43:58+0000",
+   "timestamp": "2026-10-23T20:44:27+0000",
    "username": "namuna_113",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -751,7 +751,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-23T20:53:58+0000",
+   "timestamp": "2026-10-23T20:54:27+0000",
    "username": "namuna_173",
    "text": "INGO-Uzbekiston yoki Alfa Invest Sug'urta",
    "company": null,
@@ -760,7 +760,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-23T21:03:58+0000",
+   "timestamp": "2026-10-23T21:04:27+0000",
    "username": "namuna_313",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -769,7 +769,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-23T21:13:58+0000",
+   "timestamp": "2026-10-23T21:14:27+0000",
    "username": "namuna_335",
    "text": "Temiryo'l Sug'urta",
    "company": "temiryol",
@@ -778,7 +778,7 @@
    "company_name": "Temiryo'l Sug'urta"
   },
   {
-   "timestamp": "2026-10-23T21:23:58+0000",
+   "timestamp": "2026-10-23T21:24:27+0000",
    "username": "namuna_339",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -787,7 +787,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-23T21:33:58+0000",
+   "timestamp": "2026-10-23T21:34:27+0000",
    "username": "namuna_365",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -796,7 +796,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-23T21:43:58+0000",
+   "timestamp": "2026-10-23T21:44:27+0000",
    "username": "namuna_092",
    "text": "Neo Insurance",
    "company": "neo",
@@ -805,7 +805,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-23T21:53:58+0000",
+   "timestamp": "2026-10-23T21:54:27+0000",
    "username": "namuna_045",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -814,7 +814,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-23T22:03:58+0000",
+   "timestamp": "2026-10-23T22:04:27+0000",
    "username": "namuna_203",
    "text": "Semurg Sug'urta",
    "company": "semurg",
@@ -823,7 +823,7 @@
    "company_name": "Semurg Sug'urta"
   },
   {
-   "timestamp": "2026-10-23T22:13:58+0000",
+   "timestamp": "2026-10-23T22:14:27+0000",
    "username": "namuna_044",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -832,7 +832,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-23T22:23:58+0000",
+   "timestamp": "2026-10-23T22:24:27+0000",
    "username": "namuna_066",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -841,7 +841,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-23T22:33:58+0000",
+   "timestamp": "2026-10-23T22:34:27+0000",
    "username": "namuna_336",
    "text": "@do'stim qara",
    "company": null,
@@ -850,7 +850,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-23T22:43:58+0000",
+   "timestamp": "2026-10-23T22:44:27+0000",
    "username": "namuna_243",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -859,7 +859,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-23T22:53:58+0000",
+   "timestamp": "2026-10-23T22:54:27+0000",
    "username": "namuna_281",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -868,7 +868,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-23T23:03:58+0000",
+   "timestamp": "2026-10-23T23:04:27+0000",
    "username": "namuna_372",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -877,7 +877,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-23T23:13:58+0000",
+   "timestamp": "2026-10-23T23:14:27+0000",
    "username": "namuna_072",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -886,7 +886,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-23T23:23:58+0000",
+   "timestamp": "2026-10-23T23:24:27+0000",
    "username": "namuna_109",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -895,7 +895,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-23T23:33:58+0000",
+   "timestamp": "2026-10-23T23:34:27+0000",
    "username": "namuna_150",
    "text": "Qachon natija?",
    "company": null,
@@ -904,7 +904,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-23T23:43:58+0000",
+   "timestamp": "2026-10-23T23:44:27+0000",
    "username": "namuna_167",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -913,7 +913,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-23T23:53:58+0000",
+   "timestamp": "2026-10-23T23:54:27+0000",
    "username": "namuna_068",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -922,7 +922,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T00:03:58+0000",
+   "timestamp": "2026-10-24T00:04:27+0000",
    "username": "namuna_235",
    "text": "🔥🔥🔥",
    "company": null,
@@ -931,7 +931,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T00:13:58+0000",
+   "timestamp": "2026-10-24T00:14:27+0000",
    "username": "namuna_265",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -940,7 +940,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T00:23:58+0000",
+   "timestamp": "2026-10-24T00:24:27+0000",
    "username": "namuna_257",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -949,7 +949,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-24T00:33:58+0000",
+   "timestamp": "2026-10-24T00:34:27+0000",
    "username": "namuna_262",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -958,7 +958,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T00:43:58+0000",
+   "timestamp": "2026-10-24T00:44:27+0000",
    "username": "namuna_094",
    "text": "@do'stim qara",
    "company": null,
@@ -967,7 +967,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T00:53:58+0000",
+   "timestamp": "2026-10-24T00:54:27+0000",
    "username": "namuna_077",
    "text": "Ishonch Sug'urta",
    "company": "ishonch",
@@ -976,7 +976,7 @@
    "company_name": "Ishonch Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T01:03:58+0000",
+   "timestamp": "2026-10-24T01:04:27+0000",
    "username": "namuna_372",
    "text": "Neo Insurance",
    "company": "neo",
@@ -985,7 +985,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-24T01:13:58+0000",
+   "timestamp": "2026-10-24T01:14:27+0000",
    "username": "namuna_350",
    "text": "O'zbekinvest",
    "company": "uzbekinvest",
@@ -994,7 +994,7 @@
    "company_name": "O'zbekinvest"
   },
   {
-   "timestamp": "2026-10-24T01:23:58+0000",
+   "timestamp": "2026-10-24T01:24:27+0000",
    "username": "namuna_055",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1003,7 +1003,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T01:33:58+0000",
+   "timestamp": "2026-10-24T01:34:27+0000",
    "username": "namuna_098",
    "text": "O'zbekinvest",
    "company": "uzbekinvest",
@@ -1012,7 +1012,7 @@
    "company_name": "O'zbekinvest"
   },
   {
-   "timestamp": "2026-10-24T01:43:58+0000",
+   "timestamp": "2026-10-24T01:44:27+0000",
    "username": "namuna_260",
    "text": "Asia Insurance",
    "company": "asia",
@@ -1021,7 +1021,7 @@
    "company_name": "Asia Insurance"
   },
   {
-   "timestamp": "2026-10-24T01:53:58+0000",
+   "timestamp": "2026-10-24T01:54:27+0000",
    "username": "namuna_033",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -1030,7 +1030,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-24T02:03:58+0000",
+   "timestamp": "2026-10-24T02:04:27+0000",
    "username": "namuna_259",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1039,7 +1039,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T02:13:58+0000",
+   "timestamp": "2026-10-24T02:14:27+0000",
    "username": "namuna_142",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -1048,7 +1048,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T02:23:58+0000",
+   "timestamp": "2026-10-24T02:24:27+0000",
    "username": "namuna_245",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1057,7 +1057,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T02:33:58+0000",
+   "timestamp": "2026-10-24T02:34:27+0000",
    "username": "namuna_268",
    "text": "Impex Insurance",
    "company": "impex",
@@ -1066,7 +1066,7 @@
    "company_name": "Impex Insurance"
   },
   {
-   "timestamp": "2026-10-24T02:43:58+0000",
+   "timestamp": "2026-10-24T02:44:27+0000",
    "username": "namuna_133",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -1075,7 +1075,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-24T02:53:58+0000",
+   "timestamp": "2026-10-24T02:54:27+0000",
    "username": "namuna_104",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -1084,7 +1084,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T03:03:58+0000",
+   "timestamp": "2026-10-24T03:04:27+0000",
    "username": "namuna_063",
    "text": "Alfa Invest Sug'urta",
    "company": "alfa_invest",
@@ -1093,7 +1093,7 @@
    "company_name": "Alfa Invest Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T03:13:58+0000",
+   "timestamp": "2026-10-24T03:14:27+0000",
    "username": "namuna_344",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1102,7 +1102,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T03:23:58+0000",
+   "timestamp": "2026-10-24T03:24:27+0000",
    "username": "namuna_343",
    "text": "O'zbekinvest",
    "company": "uzbekinvest",
@@ -1111,7 +1111,7 @@
    "company_name": "O'zbekinvest"
   },
   {
-   "timestamp": "2026-10-24T03:33:58+0000",
+   "timestamp": "2026-10-24T03:34:27+0000",
    "username": "namuna_080",
    "text": "Euroasia Insurance",
    "company": "euroasia",
@@ -1120,7 +1120,7 @@
    "company_name": "Euroasia Insurance"
   },
   {
-   "timestamp": "2026-10-24T03:43:58+0000",
+   "timestamp": "2026-10-24T03:44:27+0000",
    "username": "namuna_188",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1129,7 +1129,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T03:53:58+0000",
+   "timestamp": "2026-10-24T03:54:27+0000",
    "username": "namuna_240",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -1138,7 +1138,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T04:03:58+0000",
+   "timestamp": "2026-10-24T04:04:27+0000",
    "username": "namuna_204",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -1147,7 +1147,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-24T04:13:58+0000",
+   "timestamp": "2026-10-24T04:14:27+0000",
    "username": "namuna_342",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -1156,7 +1156,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T04:23:58+0000",
+   "timestamp": "2026-10-24T04:24:27+0000",
    "username": "namuna_221",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -1165,7 +1165,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T04:33:58+0000",
+   "timestamp": "2026-10-24T04:34:27+0000",
    "username": "namuna_216",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1174,7 +1174,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T04:43:58+0000",
+   "timestamp": "2026-10-24T04:44:27+0000",
    "username": "namuna_370",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1183,7 +1183,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T04:53:58+0000",
+   "timestamp": "2026-10-24T04:54:27+0000",
    "username": "namuna_235",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1192,7 +1192,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T05:03:58+0000",
+   "timestamp": "2026-10-24T05:04:27+0000",
    "username": "namuna_170",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -1201,7 +1201,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-24T05:13:58+0000",
+   "timestamp": "2026-10-24T05:14:27+0000",
    "username": "namuna_033",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1210,7 +1210,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T05:23:58+0000",
+   "timestamp": "2026-10-24T05:24:27+0000",
    "username": "namuna_118",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -1219,7 +1219,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-24T05:33:58+0000",
+   "timestamp": "2026-10-24T05:34:27+0000",
    "username": "namuna_136",
    "text": "Kafolat Sug'urta",
    "company": "kafolat",
@@ -1228,7 +1228,7 @@
    "company_name": "Kafolat Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T05:43:58+0000",
+   "timestamp": "2026-10-24T05:44:27+0000",
    "username": "namuna_093",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -1237,7 +1237,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T05:53:58+0000",
+   "timestamp": "2026-10-24T05:54:27+0000",
    "username": "namuna_217",
    "text": "Euroasia Insurance",
    "company": "euroasia",
@@ -1246,7 +1246,7 @@
    "company_name": "Euroasia Insurance"
   },
   {
-   "timestamp": "2026-10-24T06:03:58+0000",
+   "timestamp": "2026-10-24T06:04:27+0000",
    "username": "namuna_133",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -1255,7 +1255,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-24T06:13:58+0000",
+   "timestamp": "2026-10-24T06:14:27+0000",
    "username": "namuna_264",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1264,7 +1264,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T06:23:58+0000",
+   "timestamp": "2026-10-24T06:24:27+0000",
    "username": "namuna_046",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -1273,7 +1273,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-24T06:33:58+0000",
+   "timestamp": "2026-10-24T06:34:27+0000",
    "username": "namuna_094",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -1282,7 +1282,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T06:43:58+0000",
+   "timestamp": "2026-10-24T06:44:27+0000",
    "username": "namuna_009",
    "text": "O'zbekinvest",
    "company": "uzbekinvest",
@@ -1291,7 +1291,7 @@
    "company_name": "O'zbekinvest"
   },
   {
-   "timestamp": "2026-10-24T06:53:58+0000",
+   "timestamp": "2026-10-24T06:54:27+0000",
    "username": "namuna_043",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -1300,7 +1300,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T07:03:58+0000",
+   "timestamp": "2026-10-24T07:04:27+0000",
    "username": "namuna_136",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -1309,7 +1309,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T07:13:58+0000",
+   "timestamp": "2026-10-24T07:14:27+0000",
    "username": "namuna_174",
    "text": "Neo Insurance",
    "company": "neo",
@@ -1318,7 +1318,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-24T07:23:58+0000",
+   "timestamp": "2026-10-24T07:24:27+0000",
    "username": "namuna_138",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1327,7 +1327,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T07:33:58+0000",
+   "timestamp": "2026-10-24T07:34:27+0000",
    "username": "namuna_364",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -1336,7 +1336,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-24T07:43:58+0000",
+   "timestamp": "2026-10-24T07:44:27+0000",
    "username": "namuna_083",
    "text": "Kafolat Sug'urta",
    "company": "kafolat",
@@ -1345,7 +1345,7 @@
    "company_name": "Kafolat Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T07:53:58+0000",
+   "timestamp": "2026-10-24T07:54:27+0000",
    "username": "namuna_160",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -1354,7 +1354,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T08:03:58+0000",
+   "timestamp": "2026-10-24T08:04:27+0000",
    "username": "namuna_106",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1363,7 +1363,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T08:13:58+0000",
+   "timestamp": "2026-10-24T08:14:27+0000",
    "username": "namuna_092",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1372,7 +1372,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T08:23:58+0000",
+   "timestamp": "2026-10-24T08:24:27+0000",
    "username": "namuna_129",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -1381,7 +1381,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T08:33:58+0000",
+   "timestamp": "2026-10-24T08:34:27+0000",
    "username": "namuna_376",
    "text": "Zo'r challenge!",
    "company": null,
@@ -1390,7 +1390,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T08:43:58+0000",
+   "timestamp": "2026-10-24T08:44:27+0000",
    "username": "namuna_264",
    "text": "Semurg Sug'urta",
    "company": "semurg",
@@ -1399,7 +1399,7 @@
    "company_name": "Semurg Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T08:53:58+0000",
+   "timestamp": "2026-10-24T08:54:27+0000",
    "username": "namuna_055",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -1408,7 +1408,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-24T09:03:58+0000",
+   "timestamp": "2026-10-24T09:04:27+0000",
    "username": "namuna_337",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1417,7 +1417,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T09:13:58+0000",
+   "timestamp": "2026-10-24T09:14:27+0000",
    "username": "namuna_202",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -1426,7 +1426,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T09:23:58+0000",
+   "timestamp": "2026-10-24T09:24:27+0000",
    "username": "namuna_111",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1435,7 +1435,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T09:33:58+0000",
+   "timestamp": "2026-10-24T09:34:27+0000",
    "username": "namuna_362",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1444,7 +1444,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T09:43:58+0000",
+   "timestamp": "2026-10-24T09:44:27+0000",
    "username": "namuna_178",
    "text": "Alfa Invest Sug'urta",
    "company": "alfa_invest",
@@ -1453,7 +1453,7 @@
    "company_name": "Alfa Invest Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T09:53:58+0000",
+   "timestamp": "2026-10-24T09:54:27+0000",
    "username": "namuna_008",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -1462,7 +1462,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T10:03:58+0000",
+   "timestamp": "2026-10-24T10:04:27+0000",
    "username": "namuna_221",
    "text": "🔥🔥🔥",
    "company": null,
@@ -1471,7 +1471,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T10:13:58+0000",
+   "timestamp": "2026-10-24T10:14:27+0000",
    "username": "namuna_196",
    "text": "O'zbekinvest Hayot",
    "company": "uzbekinvest_hayot",
@@ -1480,7 +1480,7 @@
    "company_name": "O'zbekinvest Hayot"
   },
   {
-   "timestamp": "2026-10-24T10:23:58+0000",
+   "timestamp": "2026-10-24T10:24:27+0000",
    "username": "namuna_145",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -1489,7 +1489,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-24T10:33:58+0000",
+   "timestamp": "2026-10-24T10:34:27+0000",
    "username": "namuna_024",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -1498,7 +1498,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-24T10:43:58+0000",
+   "timestamp": "2026-10-24T10:44:27+0000",
    "username": "namuna_229",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -1507,7 +1507,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T10:53:58+0000",
+   "timestamp": "2026-10-24T10:54:27+0000",
    "username": "namuna_169",
    "text": "🔥🔥🔥",
    "company": null,
@@ -1516,7 +1516,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T11:03:58+0000",
+   "timestamp": "2026-10-24T11:04:27+0000",
    "username": "namuna_126",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1525,7 +1525,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T11:13:58+0000",
+   "timestamp": "2026-10-24T11:14:27+0000",
    "username": "namuna_112",
    "text": "🔥🔥🔥",
    "company": null,
@@ -1534,7 +1534,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T11:23:58+0000",
+   "timestamp": "2026-10-24T11:24:27+0000",
    "username": "namuna_196",
    "text": "Apex Insurance",
    "company": "apex",
@@ -1543,7 +1543,7 @@
    "company_name": "Apex Insurance"
   },
   {
-   "timestamp": "2026-10-24T11:33:58+0000",
+   "timestamp": "2026-10-24T11:34:27+0000",
    "username": "namuna_336",
    "text": "SQB Insurance yoki Semurg Sug'urta",
    "company": null,
@@ -1552,7 +1552,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T11:43:58+0000",
+   "timestamp": "2026-10-24T11:44:27+0000",
    "username": "namuna_003",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1561,7 +1561,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T11:53:58+0000",
+   "timestamp": "2026-10-24T11:54:27+0000",
    "username": "namuna_205",
    "text": "O'zbekinvest Hayot yoki Euroasia Insurance",
    "company": null,
@@ -1570,7 +1570,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T12:03:58+0000",
+   "timestamp": "2026-10-24T12:04:27+0000",
    "username": "namuna_154",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1579,7 +1579,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T12:13:58+0000",
+   "timestamp": "2026-10-24T12:14:27+0000",
    "username": "namuna_300",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -1588,7 +1588,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T12:23:58+0000",
+   "timestamp": "2026-10-24T12:24:27+0000",
    "username": "namuna_080",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -1597,7 +1597,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T12:33:58+0000",
+   "timestamp": "2026-10-24T12:34:27+0000",
    "username": "namuna_306",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -1606,7 +1606,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-24T12:43:58+0000",
+   "timestamp": "2026-10-24T12:44:27+0000",
    "username": "namuna_254",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1615,7 +1615,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T12:53:58+0000",
+   "timestamp": "2026-10-24T12:54:27+0000",
    "username": "namuna_330",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -1624,7 +1624,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-24T13:03:58+0000",
+   "timestamp": "2026-10-24T13:04:27+0000",
    "username": "namuna_367",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -1633,7 +1633,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T13:13:58+0000",
+   "timestamp": "2026-10-24T13:14:27+0000",
    "username": "namuna_376",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1642,7 +1642,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T13:23:58+0000",
+   "timestamp": "2026-10-24T13:24:27+0000",
    "username": "namuna_269",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1651,7 +1651,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T13:33:58+0000",
+   "timestamp": "2026-10-24T13:34:27+0000",
    "username": "namuna_009",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1660,7 +1660,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T13:43:58+0000",
+   "timestamp": "2026-10-24T13:44:27+0000",
    "username": "namuna_365",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1669,7 +1669,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T13:53:58+0000",
+   "timestamp": "2026-10-24T13:54:27+0000",
    "username": "namuna_118",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -1678,7 +1678,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-24T14:03:58+0000",
+   "timestamp": "2026-10-24T14:04:27+0000",
    "username": "namuna_327",
    "text": "My Insurance yoki Kafolat Hayot Insurance",
    "company": null,
@@ -1687,7 +1687,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T14:13:58+0000",
+   "timestamp": "2026-10-24T14:14:27+0000",
    "username": "namuna_232",
    "text": "Kafolat Sug'urta",
    "company": "kafolat",
@@ -1696,7 +1696,7 @@
    "company_name": "Kafolat Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T14:23:58+0000",
+   "timestamp": "2026-10-24T14:24:27+0000",
    "username": "namuna_321",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1705,7 +1705,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T14:33:58+0000",
+   "timestamp": "2026-10-24T14:34:27+0000",
    "username": "namuna_136",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -1714,7 +1714,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T14:43:58+0000",
+   "timestamp": "2026-10-24T14:44:27+0000",
    "username": "namuna_258",
    "text": "Zo'r challenge!",
    "company": null,
@@ -1723,7 +1723,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T14:53:58+0000",
+   "timestamp": "2026-10-24T14:54:27+0000",
    "username": "namuna_270",
    "text": "O'zbekinvest Hayot",
    "company": "uzbekinvest_hayot",
@@ -1732,7 +1732,7 @@
    "company_name": "O'zbekinvest Hayot"
   },
   {
-   "timestamp": "2026-10-24T15:03:58+0000",
+   "timestamp": "2026-10-24T15:04:27+0000",
    "username": "namuna_130",
    "text": "@do'stim qara",
    "company": null,
@@ -1741,7 +1741,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T15:13:58+0000",
+   "timestamp": "2026-10-24T15:14:27+0000",
    "username": "namuna_121",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -1750,7 +1750,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T15:23:58+0000",
+   "timestamp": "2026-10-24T15:24:27+0000",
    "username": "namuna_379",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -1759,7 +1759,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T15:33:58+0000",
+   "timestamp": "2026-10-24T15:34:27+0000",
    "username": "namuna_196",
    "text": "Neo Insurance",
    "company": "neo",
@@ -1768,7 +1768,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-24T15:43:58+0000",
+   "timestamp": "2026-10-24T15:44:27+0000",
    "username": "namuna_024",
    "text": "🔥🔥🔥",
    "company": null,
@@ -1777,7 +1777,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T15:53:58+0000",
+   "timestamp": "2026-10-24T15:54:27+0000",
    "username": "namuna_040",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -1786,7 +1786,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T16:03:58+0000",
+   "timestamp": "2026-10-24T16:04:27+0000",
    "username": "namuna_334",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1795,7 +1795,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T16:13:58+0000",
+   "timestamp": "2026-10-24T16:14:27+0000",
    "username": "namuna_291",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1804,7 +1804,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T16:23:58+0000",
+   "timestamp": "2026-10-24T16:24:27+0000",
    "username": "namuna_249",
    "text": "Temiryo'l Sug'urta",
    "company": "temiryol",
@@ -1813,7 +1813,7 @@
    "company_name": "Temiryo'l Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T16:33:58+0000",
+   "timestamp": "2026-10-24T16:34:27+0000",
    "username": "namuna_355",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -1822,7 +1822,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-24T16:43:58+0000",
+   "timestamp": "2026-10-24T16:44:27+0000",
    "username": "namuna_363",
    "text": "Temiryo'l Sug'urta",
    "company": "temiryol",
@@ -1831,7 +1831,7 @@
    "company_name": "Temiryo'l Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T16:53:58+0000",
+   "timestamp": "2026-10-24T16:54:27+0000",
    "username": "namuna_239",
    "text": "Neo Insurance",
    "company": "neo",
@@ -1840,7 +1840,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-24T17:03:58+0000",
+   "timestamp": "2026-10-24T17:04:27+0000",
    "username": "namuna_282",
    "text": "Semurg Sug'urta",
    "company": "semurg",
@@ -1849,7 +1849,7 @@
    "company_name": "Semurg Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T17:13:58+0000",
+   "timestamp": "2026-10-24T17:14:27+0000",
    "username": "namuna_243",
    "text": "Semurg Sug'urta",
    "company": "semurg",
@@ -1858,7 +1858,7 @@
    "company_name": "Semurg Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T17:23:58+0000",
+   "timestamp": "2026-10-24T17:24:27+0000",
    "username": "namuna_040",
    "text": "@do'stim qara",
    "company": null,
@@ -1867,7 +1867,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T17:33:58+0000",
+   "timestamp": "2026-10-24T17:34:27+0000",
    "username": "namuna_231",
    "text": "Hamkor Sug'urta",
    "company": "hamkor",
@@ -1876,7 +1876,7 @@
    "company_name": "Hamkor Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T17:43:58+0000",
+   "timestamp": "2026-10-24T17:44:27+0000",
    "username": "namuna_108",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1885,7 +1885,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T17:53:58+0000",
+   "timestamp": "2026-10-24T17:54:27+0000",
    "username": "namuna_073",
    "text": "Zo'r challenge!",
    "company": null,
@@ -1894,7 +1894,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T18:03:58+0000",
+   "timestamp": "2026-10-24T18:04:27+0000",
    "username": "namuna_185",
    "text": "Inson",
    "company": "inson",
@@ -1903,7 +1903,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-24T18:13:58+0000",
+   "timestamp": "2026-10-24T18:14:27+0000",
    "username": "namuna_261",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -1912,7 +1912,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T18:23:58+0000",
+   "timestamp": "2026-10-24T18:24:27+0000",
    "username": "namuna_187",
    "text": "Kafolat Sug'urta",
    "company": "kafolat",
@@ -1921,7 +1921,7 @@
    "company_name": "Kafolat Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T18:33:58+0000",
+   "timestamp": "2026-10-24T18:34:27+0000",
    "username": "namuna_249",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -1930,7 +1930,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T18:43:58+0000",
+   "timestamp": "2026-10-24T18:44:27+0000",
    "username": "namuna_252",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -1939,7 +1939,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T18:53:58+0000",
+   "timestamp": "2026-10-24T18:54:27+0000",
    "username": "namuna_373",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1948,7 +1948,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T19:03:58+0000",
+   "timestamp": "2026-10-24T19:04:27+0000",
    "username": "namuna_162",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1957,7 +1957,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T19:13:58+0000",
+   "timestamp": "2026-10-24T19:14:27+0000",
    "username": "namuna_167",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -1966,7 +1966,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T19:23:58+0000",
+   "timestamp": "2026-10-24T19:24:27+0000",
    "username": "namuna_062",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -1975,7 +1975,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T19:33:58+0000",
+   "timestamp": "2026-10-24T19:34:27+0000",
    "username": "namuna_007",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -1984,7 +1984,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T19:43:58+0000",
+   "timestamp": "2026-10-24T19:44:27+0000",
    "username": "namuna_191",
    "text": "Inson",
    "company": "inson",
@@ -1993,7 +1993,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-24T19:53:58+0000",
+   "timestamp": "2026-10-24T19:54:27+0000",
    "username": "namuna_302",
    "text": "@do'stim qara",
    "company": null,
@@ -2002,7 +2002,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T20:03:58+0000",
+   "timestamp": "2026-10-24T20:04:27+0000",
    "username": "namuna_141",
    "text": "@do'stim qara",
    "company": null,
@@ -2011,7 +2011,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T20:13:58+0000",
+   "timestamp": "2026-10-24T20:14:27+0000",
    "username": "namuna_027",
    "text": "Inson",
    "company": "inson",
@@ -2020,7 +2020,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-24T20:23:58+0000",
+   "timestamp": "2026-10-24T20:24:27+0000",
    "username": "namuna_077",
    "text": "Inson",
    "company": "inson",
@@ -2029,7 +2029,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-24T20:33:58+0000",
+   "timestamp": "2026-10-24T20:34:27+0000",
    "username": "namuna_262",
    "text": "Inson",
    "company": "inson",
@@ -2038,7 +2038,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-24T20:43:58+0000",
+   "timestamp": "2026-10-24T20:44:27+0000",
    "username": "namuna_220",
    "text": "Asia Insurance",
    "company": "asia",
@@ -2047,7 +2047,7 @@
    "company_name": "Asia Insurance"
   },
   {
-   "timestamp": "2026-10-24T20:53:58+0000",
+   "timestamp": "2026-10-24T20:54:27+0000",
    "username": "namuna_324",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -2056,7 +2056,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T21:03:58+0000",
+   "timestamp": "2026-10-24T21:04:27+0000",
    "username": "namuna_284",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -2065,7 +2065,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-24T21:13:58+0000",
+   "timestamp": "2026-10-24T21:14:27+0000",
    "username": "namuna_026",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -2074,7 +2074,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-24T21:23:58+0000",
+   "timestamp": "2026-10-24T21:24:27+0000",
    "username": "namuna_315",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -2083,7 +2083,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-24T21:33:58+0000",
+   "timestamp": "2026-10-24T21:34:27+0000",
    "username": "namuna_147",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2092,7 +2092,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T21:43:58+0000",
+   "timestamp": "2026-10-24T21:44:27+0000",
    "username": "namuna_282",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -2101,7 +2101,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T21:53:58+0000",
+   "timestamp": "2026-10-24T21:54:27+0000",
    "username": "namuna_176",
    "text": "Neo Insurance",
    "company": "neo",
@@ -2110,7 +2110,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-24T22:03:58+0000",
+   "timestamp": "2026-10-24T22:04:27+0000",
    "username": "namuna_379",
    "text": "Inson",
    "company": "inson",
@@ -2119,7 +2119,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-24T22:13:58+0000",
+   "timestamp": "2026-10-24T22:14:27+0000",
    "username": "namuna_336",
    "text": "Inson",
    "company": "inson",
@@ -2128,7 +2128,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-24T22:23:58+0000",
+   "timestamp": "2026-10-24T22:24:27+0000",
    "username": "namuna_343",
    "text": "Temiryo'l Sug'urta",
    "company": "temiryol",
@@ -2137,7 +2137,7 @@
    "company_name": "Temiryo'l Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T22:33:58+0000",
+   "timestamp": "2026-10-24T22:34:27+0000",
    "username": "namuna_083",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -2146,7 +2146,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-24T22:43:58+0000",
+   "timestamp": "2026-10-24T22:44:27+0000",
    "username": "namuna_282",
    "text": "@do'stim qara",
    "company": null,
@@ -2155,7 +2155,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T22:53:58+0000",
+   "timestamp": "2026-10-24T22:54:27+0000",
    "username": "namuna_231",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -2164,7 +2164,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-24T23:03:58+0000",
+   "timestamp": "2026-10-24T23:04:27+0000",
    "username": "namuna_125",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2173,7 +2173,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-24T23:13:58+0000",
+   "timestamp": "2026-10-24T23:14:27+0000",
    "username": "namuna_164",
    "text": "Agros Hayot yoki O'zbekinvest Hayot",
    "company": null,
@@ -2182,7 +2182,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-24T23:23:58+0000",
+   "timestamp": "2026-10-24T23:24:27+0000",
    "username": "namuna_292",
    "text": "Inson",
    "company": "inson",
@@ -2191,7 +2191,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-24T23:33:58+0000",
+   "timestamp": "2026-10-24T23:34:27+0000",
    "username": "namuna_212",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -2200,7 +2200,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-24T23:43:58+0000",
+   "timestamp": "2026-10-24T23:44:27+0000",
    "username": "namuna_108",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -2209,7 +2209,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-24T23:53:58+0000",
+   "timestamp": "2026-10-24T23:54:27+0000",
    "username": "namuna_032",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -2218,7 +2218,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T00:03:58+0000",
+   "timestamp": "2026-10-25T00:04:27+0000",
    "username": "namuna_185",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2227,7 +2227,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T00:13:58+0000",
+   "timestamp": "2026-10-25T00:14:27+0000",
    "username": "namuna_323",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2236,7 +2236,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T00:23:58+0000",
+   "timestamp": "2026-10-25T00:24:27+0000",
    "username": "namuna_048",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -2245,7 +2245,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T00:33:58+0000",
+   "timestamp": "2026-10-25T00:34:27+0000",
    "username": "namuna_205",
    "text": "Inson",
    "company": "inson",
@@ -2254,7 +2254,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-25T00:43:58+0000",
+   "timestamp": "2026-10-25T00:44:27+0000",
    "username": "namuna_160",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -2263,7 +2263,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T00:53:58+0000",
+   "timestamp": "2026-10-25T00:54:27+0000",
    "username": "namuna_012",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -2272,7 +2272,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T01:03:58+0000",
+   "timestamp": "2026-10-25T01:04:27+0000",
    "username": "namuna_243",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -2281,7 +2281,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T01:13:58+0000",
+   "timestamp": "2026-10-25T01:14:27+0000",
    "username": "namuna_038",
    "text": "Temiryo'l Sug'urta",
    "company": "temiryol",
@@ -2290,7 +2290,7 @@
    "company_name": "Temiryo'l Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T01:23:58+0000",
+   "timestamp": "2026-10-25T01:24:27+0000",
    "username": "namuna_271",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -2299,7 +2299,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-25T01:33:58+0000",
+   "timestamp": "2026-10-25T01:34:27+0000",
    "username": "namuna_128",
    "text": "Semurg Sug'urta",
    "company": "semurg",
@@ -2308,7 +2308,7 @@
    "company_name": "Semurg Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T01:43:58+0000",
+   "timestamp": "2026-10-25T01:44:27+0000",
    "username": "namuna_078",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -2317,7 +2317,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T01:53:58+0000",
+   "timestamp": "2026-10-25T01:54:27+0000",
    "username": "namuna_370",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -2326,7 +2326,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-25T02:03:58+0000",
+   "timestamp": "2026-10-25T02:04:27+0000",
    "username": "namuna_235",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -2335,7 +2335,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T02:13:58+0000",
+   "timestamp": "2026-10-25T02:14:27+0000",
    "username": "namuna_065",
    "text": "My Insurance yoki Apex Insurance",
    "company": null,
@@ -2344,7 +2344,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T02:23:58+0000",
+   "timestamp": "2026-10-25T02:24:27+0000",
    "username": "namuna_331",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -2353,7 +2353,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-25T02:33:58+0000",
+   "timestamp": "2026-10-25T02:34:27+0000",
    "username": "namuna_321",
    "text": "Hamkor Sug'urta",
    "company": "hamkor",
@@ -2362,7 +2362,7 @@
    "company_name": "Hamkor Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T02:43:58+0000",
+   "timestamp": "2026-10-25T02:44:27+0000",
    "username": "namuna_358",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2371,7 +2371,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T02:53:58+0000",
+   "timestamp": "2026-10-25T02:54:27+0000",
    "username": "namuna_154",
    "text": "Kafolat Sug'urta",
    "company": "kafolat",
@@ -2380,7 +2380,7 @@
    "company_name": "Kafolat Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T03:03:58+0000",
+   "timestamp": "2026-10-25T03:04:27+0000",
    "username": "namuna_199",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2389,7 +2389,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T03:13:58+0000",
+   "timestamp": "2026-10-25T03:14:27+0000",
    "username": "namuna_001",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -2398,7 +2398,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T03:23:58+0000",
+   "timestamp": "2026-10-25T03:24:27+0000",
    "username": "namuna_236",
    "text": "🔥🔥🔥",
    "company": null,
@@ -2407,7 +2407,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T03:33:58+0000",
+   "timestamp": "2026-10-25T03:34:27+0000",
    "username": "namuna_125",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -2416,7 +2416,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T03:43:58+0000",
+   "timestamp": "2026-10-25T03:44:27+0000",
    "username": "namuna_127",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -2425,7 +2425,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T03:53:58+0000",
+   "timestamp": "2026-10-25T03:54:27+0000",
    "username": "namuna_361",
    "text": "@do'stim qara",
    "company": null,
@@ -2434,7 +2434,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T04:03:58+0000",
+   "timestamp": "2026-10-25T04:04:27+0000",
    "username": "namuna_100",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -2443,7 +2443,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-25T04:13:58+0000",
+   "timestamp": "2026-10-25T04:14:27+0000",
    "username": "namuna_216",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -2452,7 +2452,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-25T04:23:58+0000",
+   "timestamp": "2026-10-25T04:24:27+0000",
    "username": "namuna_190",
    "text": "Alskom yoki Quantum Insurance",
    "company": null,
@@ -2461,7 +2461,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T04:33:58+0000",
+   "timestamp": "2026-10-25T04:34:27+0000",
    "username": "namuna_174",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -2470,7 +2470,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-25T04:43:58+0000",
+   "timestamp": "2026-10-25T04:44:27+0000",
    "username": "namuna_203",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -2479,7 +2479,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T04:53:58+0000",
+   "timestamp": "2026-10-25T04:54:27+0000",
    "username": "namuna_379",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -2488,7 +2488,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T05:03:58+0000",
+   "timestamp": "2026-10-25T05:04:27+0000",
    "username": "namuna_254",
    "text": "O'zbekinvest",
    "company": "uzbekinvest",
@@ -2497,7 +2497,7 @@
    "company_name": "O'zbekinvest"
   },
   {
-   "timestamp": "2026-10-25T05:13:58+0000",
+   "timestamp": "2026-10-25T05:14:27+0000",
    "username": "namuna_100",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -2506,7 +2506,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T05:23:58+0000",
+   "timestamp": "2026-10-25T05:24:27+0000",
    "username": "namuna_152",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -2515,7 +2515,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T05:33:58+0000",
+   "timestamp": "2026-10-25T05:34:27+0000",
    "username": "namuna_115",
    "text": "Hamkor Sug'urta yoki Trust Insurance",
    "company": null,
@@ -2524,7 +2524,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T05:43:58+0000",
+   "timestamp": "2026-10-25T05:44:27+0000",
    "username": "namuna_029",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -2533,7 +2533,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T05:53:58+0000",
+   "timestamp": "2026-10-25T05:54:27+0000",
    "username": "namuna_202",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -2542,7 +2542,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T06:03:58+0000",
+   "timestamp": "2026-10-25T06:04:27+0000",
    "username": "namuna_306",
    "text": "Zo'r challenge!",
    "company": null,
@@ -2551,7 +2551,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T06:13:58+0000",
+   "timestamp": "2026-10-25T06:14:27+0000",
    "username": "namuna_031",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -2560,7 +2560,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-25T06:23:58+0000",
+   "timestamp": "2026-10-25T06:24:27+0000",
    "username": "namuna_365",
    "text": "Neo Insurance",
    "company": "neo",
@@ -2569,7 +2569,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-25T06:33:58+0000",
+   "timestamp": "2026-10-25T06:34:27+0000",
    "username": "namuna_041",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -2578,7 +2578,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-25T06:43:58+0000",
+   "timestamp": "2026-10-25T06:44:27+0000",
    "username": "namuna_095",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -2587,7 +2587,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T06:53:58+0000",
+   "timestamp": "2026-10-25T06:54:27+0000",
    "username": "namuna_240",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2596,7 +2596,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T07:03:58+0000",
+   "timestamp": "2026-10-25T07:04:27+0000",
    "username": "namuna_192",
    "text": "@do'stim qara",
    "company": null,
@@ -2605,7 +2605,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T07:13:58+0000",
+   "timestamp": "2026-10-25T07:14:27+0000",
    "username": "namuna_056",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -2614,7 +2614,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T07:23:58+0000",
+   "timestamp": "2026-10-25T07:24:27+0000",
    "username": "namuna_042",
    "text": "🔥🔥🔥",
    "company": null,
@@ -2623,7 +2623,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T07:33:58+0000",
+   "timestamp": "2026-10-25T07:34:27+0000",
    "username": "namuna_064",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -2632,7 +2632,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-25T07:43:58+0000",
+   "timestamp": "2026-10-25T07:44:27+0000",
    "username": "namuna_195",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -2641,7 +2641,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-25T07:53:58+0000",
+   "timestamp": "2026-10-25T07:54:27+0000",
    "username": "namuna_222",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -2650,7 +2650,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T08:03:58+0000",
+   "timestamp": "2026-10-25T08:04:27+0000",
    "username": "namuna_191",
    "text": "INGO-Uzbekiston yoki Alfa Invest Sug'urta",
    "company": null,
@@ -2659,7 +2659,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T08:13:58+0000",
+   "timestamp": "2026-10-25T08:14:27+0000",
    "username": "namuna_166",
    "text": "Neo Insurance",
    "company": "neo",
@@ -2668,7 +2668,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-25T08:23:58+0000",
+   "timestamp": "2026-10-25T08:24:27+0000",
    "username": "namuna_016",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -2677,7 +2677,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T08:33:58+0000",
+   "timestamp": "2026-10-25T08:34:27+0000",
    "username": "namuna_321",
    "text": "Impex Insurance",
    "company": "impex",
@@ -2686,7 +2686,7 @@
    "company_name": "Impex Insurance"
   },
   {
-   "timestamp": "2026-10-25T08:43:58+0000",
+   "timestamp": "2026-10-25T08:44:27+0000",
    "username": "namuna_018",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -2695,7 +2695,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-25T08:53:58+0000",
+   "timestamp": "2026-10-25T08:54:27+0000",
    "username": "namuna_032",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -2704,7 +2704,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T09:03:58+0000",
+   "timestamp": "2026-10-25T09:04:27+0000",
    "username": "namuna_311",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -2713,7 +2713,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-25T09:13:58+0000",
+   "timestamp": "2026-10-25T09:14:27+0000",
    "username": "namuna_316",
    "text": "Inson",
    "company": "inson",
@@ -2722,7 +2722,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-25T09:23:58+0000",
+   "timestamp": "2026-10-25T09:24:27+0000",
    "username": "namuna_142",
    "text": "🔥🔥🔥",
    "company": null,
@@ -2731,7 +2731,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T09:33:58+0000",
+   "timestamp": "2026-10-25T09:34:27+0000",
    "username": "namuna_305",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -2740,7 +2740,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-25T09:43:58+0000",
+   "timestamp": "2026-10-25T09:44:27+0000",
    "username": "namuna_034",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2749,7 +2749,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T09:53:58+0000",
+   "timestamp": "2026-10-25T09:54:27+0000",
    "username": "namuna_055",
    "text": "Qachon natija?",
    "company": null,
@@ -2758,7 +2758,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T10:03:58+0000",
+   "timestamp": "2026-10-25T10:04:27+0000",
    "username": "namuna_198",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -2767,7 +2767,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-25T10:13:58+0000",
+   "timestamp": "2026-10-25T10:14:27+0000",
    "username": "namuna_253",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -2776,7 +2776,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T10:23:58+0000",
+   "timestamp": "2026-10-25T10:24:27+0000",
    "username": "namuna_005",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2785,7 +2785,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T10:33:58+0000",
+   "timestamp": "2026-10-25T10:34:27+0000",
    "username": "namuna_355",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -2794,7 +2794,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-25T10:43:58+0000",
+   "timestamp": "2026-10-25T10:44:27+0000",
    "username": "namuna_168",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2803,7 +2803,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T10:53:58+0000",
+   "timestamp": "2026-10-25T10:54:27+0000",
    "username": "namuna_306",
    "text": "Neo Insurance",
    "company": "neo",
@@ -2812,7 +2812,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-25T11:03:58+0000",
+   "timestamp": "2026-10-25T11:04:27+0000",
    "username": "namuna_201",
    "text": "Qachon natija?",
    "company": null,
@@ -2821,7 +2821,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T11:13:58+0000",
+   "timestamp": "2026-10-25T11:14:27+0000",
    "username": "namuna_034",
    "text": "Impex Insurance",
    "company": "impex",
@@ -2830,7 +2830,7 @@
    "company_name": "Impex Insurance"
   },
   {
-   "timestamp": "2026-10-25T11:23:58+0000",
+   "timestamp": "2026-10-25T11:24:27+0000",
    "username": "namuna_279",
    "text": "Temiryo'l Sug'urta",
    "company": "temiryol",
@@ -2839,7 +2839,7 @@
    "company_name": "Temiryo'l Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T11:33:58+0000",
+   "timestamp": "2026-10-25T11:34:27+0000",
    "username": "namuna_054",
    "text": "Semurg Sug'urta",
    "company": "semurg",
@@ -2848,7 +2848,7 @@
    "company_name": "Semurg Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T11:43:58+0000",
+   "timestamp": "2026-10-25T11:44:27+0000",
    "username": "namuna_044",
    "text": "Inson",
    "company": "inson",
@@ -2857,7 +2857,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-25T11:53:58+0000",
+   "timestamp": "2026-10-25T11:54:27+0000",
    "username": "namuna_364",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -2866,7 +2866,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T12:03:58+0000",
+   "timestamp": "2026-10-25T12:04:27+0000",
    "username": "namuna_069",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -2875,7 +2875,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T12:13:58+0000",
+   "timestamp": "2026-10-25T12:14:27+0000",
    "username": "namuna_346",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2884,7 +2884,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T12:23:58+0000",
+   "timestamp": "2026-10-25T12:24:27+0000",
    "username": "namuna_341",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2893,7 +2893,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T12:33:58+0000",
+   "timestamp": "2026-10-25T12:34:27+0000",
    "username": "namuna_151",
    "text": "Ishonch Sug'urta",
    "company": "ishonch",
@@ -2902,7 +2902,7 @@
    "company_name": "Ishonch Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T12:43:58+0000",
+   "timestamp": "2026-10-25T12:44:27+0000",
    "username": "namuna_191",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -2911,7 +2911,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T12:53:58+0000",
+   "timestamp": "2026-10-25T12:54:27+0000",
    "username": "namuna_225",
    "text": "Inson",
    "company": "inson",
@@ -2920,7 +2920,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-25T13:03:58+0000",
+   "timestamp": "2026-10-25T13:04:27+0000",
    "username": "namuna_079",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -2929,7 +2929,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T13:13:58+0000",
+   "timestamp": "2026-10-25T13:14:27+0000",
    "username": "namuna_097",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -2938,7 +2938,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T13:23:58+0000",
+   "timestamp": "2026-10-25T13:24:27+0000",
    "username": "namuna_126",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -2947,7 +2947,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T13:33:58+0000",
+   "timestamp": "2026-10-25T13:34:27+0000",
    "username": "namuna_052",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -2956,7 +2956,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T13:43:58+0000",
+   "timestamp": "2026-10-25T13:44:27+0000",
    "username": "namuna_053",
    "text": "Semurg Sug'urta",
    "company": "semurg",
@@ -2965,7 +2965,7 @@
    "company_name": "Semurg Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T13:53:58+0000",
+   "timestamp": "2026-10-25T13:54:27+0000",
    "username": "namuna_230",
    "text": "Qachon natija?",
    "company": null,
@@ -2974,7 +2974,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T14:03:58+0000",
+   "timestamp": "2026-10-25T14:04:27+0000",
    "username": "namuna_151",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -2983,7 +2983,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-25T14:13:58+0000",
+   "timestamp": "2026-10-25T14:14:27+0000",
    "username": "namuna_308",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -2992,7 +2992,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-25T14:23:58+0000",
+   "timestamp": "2026-10-25T14:24:27+0000",
    "username": "namuna_039",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -3001,7 +3001,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T14:33:58+0000",
+   "timestamp": "2026-10-25T14:34:27+0000",
    "username": "namuna_230",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -3010,7 +3010,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T14:43:58+0000",
+   "timestamp": "2026-10-25T14:44:27+0000",
    "username": "namuna_341",
    "text": "Imkon Sug'urta",
    "company": "imkon",
@@ -3019,7 +3019,7 @@
    "company_name": "Imkon Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T14:53:58+0000",
+   "timestamp": "2026-10-25T14:54:27+0000",
    "username": "namuna_306",
    "text": "Kafolat Sug'urta",
    "company": "kafolat",
@@ -3028,7 +3028,7 @@
    "company_name": "Kafolat Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T15:03:58+0000",
+   "timestamp": "2026-10-25T15:04:27+0000",
    "username": "namuna_020",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3037,7 +3037,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T15:13:58+0000",
+   "timestamp": "2026-10-25T15:14:27+0000",
    "username": "namuna_105",
    "text": "Alfa Invest Sug'urta",
    "company": "alfa_invest",
@@ -3046,7 +3046,7 @@
    "company_name": "Alfa Invest Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T15:23:58+0000",
+   "timestamp": "2026-10-25T15:24:27+0000",
    "username": "namuna_375",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -3055,7 +3055,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-25T15:33:58+0000",
+   "timestamp": "2026-10-25T15:34:27+0000",
    "username": "namuna_006",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3064,7 +3064,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T15:43:58+0000",
+   "timestamp": "2026-10-25T15:44:27+0000",
    "username": "namuna_191",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3073,7 +3073,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T15:53:58+0000",
+   "timestamp": "2026-10-25T15:54:27+0000",
    "username": "namuna_105",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3082,7 +3082,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T16:03:58+0000",
+   "timestamp": "2026-10-25T16:04:27+0000",
    "username": "namuna_281",
    "text": "@do'stim qara",
    "company": null,
@@ -3091,7 +3091,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T16:13:58+0000",
+   "timestamp": "2026-10-25T16:14:27+0000",
    "username": "namuna_203",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3100,7 +3100,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T16:23:58+0000",
+   "timestamp": "2026-10-25T16:24:27+0000",
    "username": "namuna_274",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3109,7 +3109,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T16:33:58+0000",
+   "timestamp": "2026-10-25T16:34:27+0000",
    "username": "namuna_357",
    "text": "Kafil Sug'urta yoki Mosaic Insurance Group",
    "company": null,
@@ -3118,7 +3118,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T16:43:58+0000",
+   "timestamp": "2026-10-25T16:44:27+0000",
    "username": "namuna_342",
    "text": "Semurg Sug'urta",
    "company": "semurg",
@@ -3127,7 +3127,7 @@
    "company_name": "Semurg Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T16:53:58+0000",
+   "timestamp": "2026-10-25T16:54:27+0000",
    "username": "namuna_160",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -3136,7 +3136,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-25T17:03:58+0000",
+   "timestamp": "2026-10-25T17:04:27+0000",
    "username": "namuna_213",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -3145,7 +3145,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T17:13:58+0000",
+   "timestamp": "2026-10-25T17:14:27+0000",
    "username": "namuna_187",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -3154,7 +3154,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T17:23:58+0000",
+   "timestamp": "2026-10-25T17:24:27+0000",
    "username": "namuna_208",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3163,7 +3163,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T17:33:58+0000",
+   "timestamp": "2026-10-25T17:34:27+0000",
    "username": "namuna_081",
    "text": "Apex Insurance",
    "company": "apex",
@@ -3172,7 +3172,7 @@
    "company_name": "Apex Insurance"
   },
   {
-   "timestamp": "2026-10-25T17:43:58+0000",
+   "timestamp": "2026-10-25T17:44:27+0000",
    "username": "namuna_208",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -3181,7 +3181,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T17:53:58+0000",
+   "timestamp": "2026-10-25T17:54:27+0000",
    "username": "namuna_084",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3190,7 +3190,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T18:03:58+0000",
+   "timestamp": "2026-10-25T18:04:27+0000",
    "username": "namuna_073",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -3199,7 +3199,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-25T18:13:58+0000",
+   "timestamp": "2026-10-25T18:14:27+0000",
    "username": "namuna_046",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -3208,7 +3208,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T18:23:58+0000",
+   "timestamp": "2026-10-25T18:24:27+0000",
    "username": "namuna_378",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -3217,7 +3217,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-25T18:33:58+0000",
+   "timestamp": "2026-10-25T18:34:27+0000",
    "username": "namuna_146",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3226,7 +3226,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T18:43:58+0000",
+   "timestamp": "2026-10-25T18:44:27+0000",
    "username": "namuna_035",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3235,7 +3235,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T18:53:58+0000",
+   "timestamp": "2026-10-25T18:54:27+0000",
    "username": "namuna_155",
    "text": "Hamkor Sug'urta yoki Alfa Invest Sug'urta",
    "company": null,
@@ -3244,7 +3244,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T19:03:58+0000",
+   "timestamp": "2026-10-25T19:04:27+0000",
    "username": "namuna_248",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -3253,7 +3253,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-25T19:13:58+0000",
+   "timestamp": "2026-10-25T19:14:27+0000",
    "username": "namuna_326",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -3262,7 +3262,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T19:23:58+0000",
+   "timestamp": "2026-10-25T19:24:27+0000",
    "username": "namuna_318",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -3271,7 +3271,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T19:33:58+0000",
+   "timestamp": "2026-10-25T19:34:27+0000",
    "username": "namuna_328",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -3280,7 +3280,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T19:43:58+0000",
+   "timestamp": "2026-10-25T19:44:27+0000",
    "username": "namuna_208",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3289,7 +3289,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T19:53:58+0000",
+   "timestamp": "2026-10-25T19:54:27+0000",
    "username": "namuna_243",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3298,7 +3298,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T20:03:58+0000",
+   "timestamp": "2026-10-25T20:04:27+0000",
    "username": "namuna_205",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3307,7 +3307,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T20:13:58+0000",
+   "timestamp": "2026-10-25T20:14:27+0000",
    "username": "namuna_184",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3316,7 +3316,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T20:23:58+0000",
+   "timestamp": "2026-10-25T20:24:27+0000",
    "username": "namuna_372",
    "text": "Impex Insurance",
    "company": "impex",
@@ -3325,7 +3325,7 @@
    "company_name": "Impex Insurance"
   },
   {
-   "timestamp": "2026-10-25T20:33:58+0000",
+   "timestamp": "2026-10-25T20:34:27+0000",
    "username": "namuna_288",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3334,7 +3334,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T20:43:58+0000",
+   "timestamp": "2026-10-25T20:44:27+0000",
    "username": "namuna_342",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -3343,7 +3343,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-25T20:53:58+0000",
+   "timestamp": "2026-10-25T20:54:27+0000",
    "username": "namuna_307",
    "text": "Euroasia Insurance",
    "company": "euroasia",
@@ -3352,7 +3352,7 @@
    "company_name": "Euroasia Insurance"
   },
   {
-   "timestamp": "2026-10-25T21:03:58+0000",
+   "timestamp": "2026-10-25T21:04:27+0000",
    "username": "namuna_157",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -3361,7 +3361,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T21:13:58+0000",
+   "timestamp": "2026-10-25T21:14:27+0000",
    "username": "namuna_128",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3370,7 +3370,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-25T21:23:58+0000",
+   "timestamp": "2026-10-25T21:24:27+0000",
    "username": "namuna_229",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -3379,7 +3379,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-25T21:33:58+0000",
+   "timestamp": "2026-10-25T21:34:27+0000",
    "username": "namuna_002",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3388,7 +3388,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-25T21:43:58+0000",
+   "timestamp": "2026-10-25T21:44:27+0000",
    "username": "namuna_121",
    "text": "Temiryo'l Sug'urta",
    "company": "temiryol",
@@ -3397,7 +3397,7 @@
    "company_name": "Temiryo'l Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T21:53:58+0000",
+   "timestamp": "2026-10-25T21:54:27+0000",
    "username": "namuna_235",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -3406,7 +3406,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T22:03:58+0000",
+   "timestamp": "2026-10-25T22:04:27+0000",
    "username": "namuna_205",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -3415,7 +3415,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T22:13:58+0000",
+   "timestamp": "2026-10-25T22:14:27+0000",
    "username": "namuna_221",
    "text": "Kafolat Hayot Insurance yoki Infinity Insurance",
    "company": null,
@@ -3424,7 +3424,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-25T22:23:58+0000",
+   "timestamp": "2026-10-25T22:24:27+0000",
    "username": "namuna_259",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -3433,7 +3433,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T22:33:58+0000",
+   "timestamp": "2026-10-25T22:34:27+0000",
    "username": "namuna_326",
    "text": "My Insurance",
    "company": "my_insurance",
@@ -3442,7 +3442,7 @@
    "company_name": "My Insurance"
   },
   {
-   "timestamp": "2026-10-25T22:43:58+0000",
+   "timestamp": "2026-10-25T22:44:27+0000",
    "username": "namuna_161",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -3451,7 +3451,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-25T22:53:58+0000",
+   "timestamp": "2026-10-25T22:54:27+0000",
    "username": "namuna_028",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -3460,7 +3460,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-25T23:03:58+0000",
+   "timestamp": "2026-10-25T23:04:27+0000",
    "username": "namuna_335",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -3469,7 +3469,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T23:13:58+0000",
+   "timestamp": "2026-10-25T23:14:27+0000",
    "username": "namuna_034",
    "text": "Alfa Invest Sug'urta",
    "company": "alfa_invest",
@@ -3478,7 +3478,7 @@
    "company_name": "Alfa Invest Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T23:23:58+0000",
+   "timestamp": "2026-10-25T23:24:27+0000",
    "username": "namuna_057",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -3487,7 +3487,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-25T23:33:58+0000",
+   "timestamp": "2026-10-25T23:34:27+0000",
    "username": "namuna_252",
    "text": "Semurg Sug'urta",
    "company": "semurg",
@@ -3496,7 +3496,7 @@
    "company_name": "Semurg Sug'urta"
   },
   {
-   "timestamp": "2026-10-25T23:43:58+0000",
+   "timestamp": "2026-10-25T23:44:27+0000",
    "username": "namuna_085",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -3505,7 +3505,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-25T23:53:58+0000",
+   "timestamp": "2026-10-25T23:54:27+0000",
    "username": "namuna_114",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -3514,7 +3514,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-26T00:03:58+0000",
+   "timestamp": "2026-10-26T00:04:27+0000",
    "username": "namuna_313",
    "text": "🔥🔥🔥",
    "company": null,
@@ -3523,7 +3523,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-26T00:13:58+0000",
+   "timestamp": "2026-10-26T00:14:27+0000",
    "username": "namuna_315",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3532,7 +3532,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-26T00:23:58+0000",
+   "timestamp": "2026-10-26T00:24:27+0000",
    "username": "namuna_074",
    "text": "Quantum Insurance",
    "company": "quantum",
@@ -3541,7 +3541,7 @@
    "company_name": "Quantum Insurance"
   },
   {
-   "timestamp": "2026-10-26T00:33:58+0000",
+   "timestamp": "2026-10-26T00:34:27+0000",
    "username": "namuna_246",
    "text": "Hamkor Sug'urta",
    "company": "hamkor",
@@ -3550,7 +3550,7 @@
    "company_name": "Hamkor Sug'urta"
   },
   {
-   "timestamp": "2026-10-26T00:43:58+0000",
+   "timestamp": "2026-10-26T00:44:27+0000",
    "username": "namuna_260",
    "text": "Inson",
    "company": "inson",
@@ -3559,7 +3559,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-26T00:53:58+0000",
+   "timestamp": "2026-10-26T00:54:27+0000",
    "username": "namuna_102",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3568,7 +3568,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-26T01:03:58+0000",
+   "timestamp": "2026-10-26T01:04:27+0000",
    "username": "namuna_143",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3577,7 +3577,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-26T01:13:58+0000",
+   "timestamp": "2026-10-26T01:14:27+0000",
    "username": "namuna_087",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -3586,7 +3586,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-26T01:23:58+0000",
+   "timestamp": "2026-10-26T01:24:27+0000",
    "username": "namuna_272",
    "text": "Inson",
    "company": "inson",
@@ -3595,7 +3595,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-26T01:33:58+0000",
+   "timestamp": "2026-10-26T01:34:27+0000",
    "username": "namuna_232",
    "text": "🔥🔥🔥",
    "company": null,
@@ -3604,7 +3604,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-26T01:43:58+0000",
+   "timestamp": "2026-10-26T01:44:27+0000",
    "username": "namuna_054",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -3613,7 +3613,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-26T01:53:58+0000",
+   "timestamp": "2026-10-26T01:54:27+0000",
    "username": "namuna_202",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -3622,7 +3622,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-26T02:03:58+0000",
+   "timestamp": "2026-10-26T02:04:27+0000",
    "username": "namuna_193",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3631,7 +3631,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-26T02:13:58+0000",
+   "timestamp": "2026-10-26T02:14:27+0000",
    "username": "namuna_185",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -3640,7 +3640,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-26T02:23:58+0000",
+   "timestamp": "2026-10-26T02:24:27+0000",
    "username": "namuna_118",
    "text": "O'zbekinvest",
    "company": "uzbekinvest",
@@ -3649,7 +3649,7 @@
    "company_name": "O'zbekinvest"
   },
   {
-   "timestamp": "2026-10-26T02:33:58+0000",
+   "timestamp": "2026-10-26T02:34:27+0000",
    "username": "namuna_025",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -3658,7 +3658,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-26T02:43:58+0000",
+   "timestamp": "2026-10-26T02:44:27+0000",
    "username": "namuna_159",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -3667,7 +3667,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-26T02:53:58+0000",
+   "timestamp": "2026-10-26T02:54:27+0000",
    "username": "namuna_300",
    "text": "Semurg Sug'urta",
    "company": "semurg",
@@ -3676,7 +3676,7 @@
    "company_name": "Semurg Sug'urta"
   },
   {
-   "timestamp": "2026-10-26T03:03:58+0000",
+   "timestamp": "2026-10-26T03:04:27+0000",
    "username": "namuna_376",
    "text": "Xalq Sug'urta",
    "company": "xalq",
@@ -3685,7 +3685,7 @@
    "company_name": "Xalq Sug'urta"
   },
   {
-   "timestamp": "2026-10-26T03:13:58+0000",
+   "timestamp": "2026-10-26T03:14:27+0000",
    "username": "namuna_114",
    "text": "Zo'r challenge!",
    "company": null,
@@ -3694,7 +3694,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-26T03:23:58+0000",
+   "timestamp": "2026-10-26T03:24:27+0000",
    "username": "namuna_222",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -3703,7 +3703,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-26T03:33:58+0000",
+   "timestamp": "2026-10-26T03:34:27+0000",
    "username": "namuna_025",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3712,7 +3712,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-26T03:43:58+0000",
+   "timestamp": "2026-10-26T03:44:27+0000",
    "username": "namuna_335",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3721,7 +3721,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-26T03:53:58+0000",
+   "timestamp": "2026-10-26T03:54:27+0000",
    "username": "namuna_002",
    "text": "Zo'r challenge!",
    "company": null,
@@ -3730,7 +3730,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-26T04:03:58+0000",
+   "timestamp": "2026-10-26T04:04:27+0000",
    "username": "namuna_268",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3739,7 +3739,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-26T04:13:58+0000",
+   "timestamp": "2026-10-26T04:14:27+0000",
    "username": "namuna_299",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3748,7 +3748,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-26T04:23:58+0000",
+   "timestamp": "2026-10-26T04:24:27+0000",
    "username": "namuna_188",
    "text": "Alfa Invest Sug'urta",
    "company": "alfa_invest",
@@ -3757,7 +3757,7 @@
    "company_name": "Alfa Invest Sug'urta"
   },
   {
-   "timestamp": "2026-10-26T04:33:58+0000",
+   "timestamp": "2026-10-26T04:34:27+0000",
    "username": "namuna_069",
    "text": "Neo Insurance",
    "company": "neo",
@@ -3766,7 +3766,7 @@
    "company_name": "Neo Insurance"
   },
   {
-   "timestamp": "2026-10-26T04:43:58+0000",
+   "timestamp": "2026-10-26T04:44:27+0000",
    "username": "namuna_363",
    "text": "Qachon natija?",
    "company": null,
@@ -3775,7 +3775,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-26T04:53:58+0000",
+   "timestamp": "2026-10-26T04:54:27+0000",
    "username": "namuna_327",
    "text": "Kafolat Sug'urta",
    "company": "kafolat",
@@ -3784,7 +3784,7 @@
    "company_name": "Kafolat Sug'urta"
   },
   {
-   "timestamp": "2026-10-26T05:03:58+0000",
+   "timestamp": "2026-10-26T05:04:27+0000",
    "username": "namuna_139",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -3793,7 +3793,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-26T05:13:58+0000",
+   "timestamp": "2026-10-26T05:14:27+0000",
    "username": "namuna_006",
    "text": "Inson",
    "company": "inson",
@@ -3802,7 +3802,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-26T05:23:58+0000",
+   "timestamp": "2026-10-26T05:24:27+0000",
    "username": "namuna_305",
    "text": "🔥🔥🔥",
    "company": null,
@@ -3811,7 +3811,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-26T05:33:58+0000",
+   "timestamp": "2026-10-26T05:34:27+0000",
    "username": "namuna_266",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3820,7 +3820,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-26T05:43:58+0000",
+   "timestamp": "2026-10-26T05:44:27+0000",
    "username": "namuna_001",
    "text": "Inson",
    "company": "inson",
@@ -3829,7 +3829,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-26T05:53:58+0000",
+   "timestamp": "2026-10-26T05:54:27+0000",
    "username": "namuna_208",
    "text": "Zo'r challenge!",
    "company": null,
@@ -3838,7 +3838,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-26T06:03:58+0000",
+   "timestamp": "2026-10-26T06:04:27+0000",
    "username": "namuna_054",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3847,7 +3847,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-26T06:13:58+0000",
+   "timestamp": "2026-10-26T06:14:27+0000",
    "username": "namuna_073",
    "text": "Qachon natija?",
    "company": null,
@@ -3856,7 +3856,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-26T06:23:58+0000",
+   "timestamp": "2026-10-26T06:24:27+0000",
    "username": "namuna_330",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -3865,7 +3865,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-26T06:33:58+0000",
+   "timestamp": "2026-10-26T06:34:27+0000",
    "username": "namuna_314",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -3874,7 +3874,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-26T06:43:58+0000",
+   "timestamp": "2026-10-26T06:44:27+0000",
    "username": "namuna_154",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3883,7 +3883,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-26T06:53:58+0000",
+   "timestamp": "2026-10-26T06:54:27+0000",
    "username": "namuna_371",
    "text": "Semurg Sug'urta",
    "company": "semurg",
@@ -3892,7 +3892,7 @@
    "company_name": "Semurg Sug'urta"
   },
   {
-   "timestamp": "2026-10-26T07:03:58+0000",
+   "timestamp": "2026-10-26T07:04:27+0000",
    "username": "namuna_004",
    "text": "Infinity Insurance",
    "company": "infinity",
@@ -3901,7 +3901,7 @@
    "company_name": "Infinity Insurance"
   },
   {
-   "timestamp": "2026-10-26T07:13:58+0000",
+   "timestamp": "2026-10-26T07:14:27+0000",
    "username": "namuna_239",
    "text": "SQB Insurance",
    "company": "sqb",
@@ -3910,7 +3910,7 @@
    "company_name": "SQB Insurance"
   },
   {
-   "timestamp": "2026-10-26T07:23:58+0000",
+   "timestamp": "2026-10-26T07:24:27+0000",
    "username": "namuna_116",
    "text": "Aria Sug'urta yoki Trust Insurance",
    "company": null,
@@ -3919,7 +3919,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-26T07:33:58+0000",
+   "timestamp": "2026-10-26T07:34:27+0000",
    "username": "namuna_330",
    "text": "Inson",
    "company": "inson",
@@ -3928,7 +3928,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-26T07:43:58+0000",
+   "timestamp": "2026-10-26T07:44:27+0000",
    "username": "namuna_356",
    "text": "🔥🔥🔥",
    "company": null,
@@ -3937,7 +3937,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-26T07:53:58+0000",
+   "timestamp": "2026-10-26T07:54:27+0000",
    "username": "namuna_027",
    "text": "Inson",
    "company": "inson",
@@ -3946,7 +3946,7 @@
    "company_name": "Inson"
   },
   {
-   "timestamp": "2026-10-26T08:03:58+0000",
+   "timestamp": "2026-10-26T08:04:27+0000",
    "username": "namuna_224",
    "text": "O'zagrosug'urta",
    "company": "uzagro",
@@ -3955,7 +3955,7 @@
    "company_name": "O'zagrosug'urta"
   },
   {
-   "timestamp": "2026-10-26T08:13:58+0000",
+   "timestamp": "2026-10-26T08:14:27+0000",
    "username": "namuna_136",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -3964,7 +3964,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-26T08:23:58+0000",
+   "timestamp": "2026-10-26T08:24:27+0000",
    "username": "namuna_112",
    "text": "INGO-Uzbekiston",
    "company": "ingo",
@@ -3973,7 +3973,7 @@
    "company_name": "INGO-Uzbekiston"
   },
   {
-   "timestamp": "2026-10-26T08:33:58+0000",
+   "timestamp": "2026-10-26T08:34:27+0000",
    "username": "namuna_087",
    "text": "Semurg Sug'urta yoki Apex Insurance",
    "company": null,
@@ -3982,7 +3982,7 @@
    "company_name": null
   },
   {
-   "timestamp": "2026-10-26T08:43:58+0000",
+   "timestamp": "2026-10-26T08:44:27+0000",
    "username": "namuna_104",
    "text": "Alfa Life Insurance",
    "company": "alfa_life",
@@ -3991,7 +3991,7 @@
    "company_name": "Alfa Life Insurance"
   },
   {
-   "timestamp": "2026-10-26T08:53:58+0000",
+   "timestamp": "2026-10-26T08:54:27+0000",
    "username": "namuna_168",
    "text": "Infinity Insurance",
    "company": "infinity",

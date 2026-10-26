@@ -190,7 +190,7 @@ def main():
     p.add_argument("--latest-reel", action="store_true")
     p.add_argument("--sample", action="store_true", help="namuna ma'lumot bilan sahifa yasash")
     p.add_argument("--deadline", help="ISO vaqt, masalan 2026-11-30T23:59:59+05:00")
-    p.add_argument("--days", type=int, help="muddat: Reels joylangan kundan N kun keyin, 23:59 Toshkent vaqti")
+    p.add_argument("--days", type=int, help="muddat: joylangan kun 1-kun; N-kun tugashi bilan (tungi 00:00, Toshkent) yopiladi")
     a = p.parse_args()
 
     aliases, names = load_companies()
@@ -210,7 +210,7 @@ def main():
     if a.days and not a.deadline:
         tk = dt.timezone(dt.timedelta(hours=5))
         day = posted.astimezone(tk).date() + dt.timedelta(days=a.days)
-        a.deadline = dt.datetime.combine(day, dt.time(23, 59, 59), tk).isoformat()
+        a.deadline = dt.datetime.combine(day, dt.time(0, 0), tk).isoformat()
     deadline = dt.datetime.fromisoformat(a.deadline) if a.deadline else None
 
     rows = classify(comments, aliases, deadline)
