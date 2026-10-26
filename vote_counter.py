@@ -39,28 +39,73 @@ def normalize(text):
 
 
 def load_companies():
+    """aliases: {so'zlar soni: [(so'zlar tuple, id), ...]}"""
     data = json.loads((ROOT / "companies.json").read_text(encoding="utf-8"))
-    aliases = []
+    aliases = {}
     for c in data["companies"]:
         for a in set(c["aliases"]) | {c["name"]}:
-            norm = normalize(a).strip()
-            if norm:
-                aliases.append((norm, c["id"]))
-    aliases.sort(key=lambda x: -len(x[0]))  # uzunroq nom birinchi: "apex life" > "apex"
+            words = tuple(normalize(a).split())
+            if words:
+                aliases.setdefault(len(words), []).append((words, c["id"]))
     names = {c["id"]: c["name"] for c in data["companies"]}
     return aliases, names
 
 
+def edit_distance(a, b):
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i]
+        for j, cb in enumerate(b, 1):
+            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb)))
+        prev = cur
+    return prev[-1]
+
+
+def close_word(w, a, multi=False):
+    """Qisqartma yoki xato yozuv: "inso" ~ "inson", "kapitall" ~ "kapital". Qisqa nomlar (sqb, apex) faqat aniq.
+    multi: ko'p so'zli nomning bir qismi ("apex lif" ~ "apex life") — 3 harfli qisqartma ham yetadi."""
+    if w == a:
+        return True
+    if multi and len(w) >= 3 and a.startswith(w):
+        return True
+    if len(a) < 5 or len(w) < 4:
+        return False
+    if a.startswith(w) and len(w) * 2 >= len(a):
+        return True
+    return edit_distance(w, a) <= (1 if len(a) < 8 else 2)
+
+
 def match_companies(text, aliases):
-    """Izohdagi kompaniya id larini qaytaradi; topilgan qism boshqa nomga qayta ishlatilmaydi."""
-    norm = normalize(text)
-    found = []
-    for alias, cid in aliases:
-        needle = f" {alias} "
-        while needle in norm:
-            found.append(cid)
-            norm = norm.replace(needle, " # ", 1)
-    return sorted(set(found))
+    """Izohdagi kompaniyalarni topadi: (id lar, taxminiy_bo'lgan_so'zlar).
+
+    Avval uzun nomlar ("apex life" > "apex"). 1-bosqich: aniq nomlar va ko'p so'zli nomlarning
+    taxminiy yozilishi; hech narsa topilmasa, 2-bosqich: bitta so'zli nomlarning taxminiy yozilishi.
+    """
+    tokens = normalize(text).split()
+
+    def scan(fuzzy_single):
+        used, found, approx = [False] * len(tokens), set(), []
+        for n in sorted(aliases, reverse=True):
+            for i in range(len(tokens) - n + 1):
+                if any(used[i:i + n]):
+                    continue
+                gram = tuple(tokens[i:i + n])
+                cands = {cid for words, cid in aliases[n] if words == gram}
+                if not cands and (n > 1 or fuzzy_single):
+                    cands = {cid for words, cid in aliases[n]
+                             if all(close_word(w, a, n > 1) for w, a in zip(gram, words))
+                             and (n == 1 or any(w == a for w, a in zip(gram, words)))}
+                    if cands:
+                        approx.append(" ".join(gram))
+                if cands:
+                    found |= cands
+                    used[i:i + n] = [True] * n
+        return found, approx
+
+    found, approx = scan(fuzzy_single=False)
+    if not found:
+        found, approx = scan(fuzzy_single=True)
+    return sorted(found), approx
 
 
 def classify(comments, aliases, deadline=None):
@@ -68,8 +113,8 @@ def classify(comments, aliases, deadline=None):
     voted = {}
     rows = []
     for c in sorted(comments, key=lambda c: c["timestamp"]):
-        ids = match_companies(c["text"], aliases)
-        row = dict(c, company=None, status="rad etildi", reason="")
+        ids, approx = match_companies(c["text"], aliases)
+        row = dict(c, company=None, status="rad etildi", reason="", approx=", ".join(approx))
         ts = dt.datetime.fromisoformat(c["timestamp"].replace("+0000", "+00:00"))
         if deadline and ts > deadline:
             row["reason"] = "muddatdan keyin"
@@ -173,9 +218,9 @@ def write_outputs(result):
         (folder / ("results.json" if folder == OUT else "data.json")).write_text(payload, encoding="utf-8")
         with open(folder / "votes.csv", "w", newline="", encoding="utf-8-sig") as f:
             w = csv.writer(f)
-            w.writerow(["vaqt", "akkaunt", "izoh", "kompaniya", "holat", "sabab"])
+            w.writerow(["vaqt", "akkaunt", "izoh", "kompaniya", "holat", "sabab", "taxminiy"])
             for v in result["votes"]:
-                w.writerow([v["timestamp"], v["username"], v["text"], v["company_name"] or "", v["status"], v["reason"]])
+                w.writerow([v["timestamp"], v["username"], v["text"], v["company_name"] or "", v["status"], v["reason"], v["approx"]])
     # Joylash uchun to'liq HTML hujjat (page.html — sahifaning o'zi)
     page = (SITE / "page.html").read_text(encoding="utf-8")
     (SITE / "index.html").write_text(
@@ -225,7 +270,7 @@ def main():
         "total_comments": len(rows),
         "counted_votes": counted,
         "ranking": ranking,
-        "votes": [{k: r[k] for k in ("timestamp", "username", "text", "company", "status", "reason")} | {"company_name": names.get(r["company"])} for r in rows],
+        "votes": [{k: r[k] for k in ("timestamp", "username", "text", "company", "status", "reason", "approx")} | {"company_name": names.get(r["company"])} for r in rows],
     }
     write_outputs(result)
 

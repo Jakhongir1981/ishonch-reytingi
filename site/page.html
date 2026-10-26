@@ -119,6 +119,7 @@ tr.hit td { background: rgba(214,186,128,.1); }
 .pill { font: 400 12px/1.2 var(--f-body); letter-spacing: .04em; white-space: nowrap; }
 .pill::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-right: 8px; vertical-align: 1px; background: currentColor; }
 .pill.ok { color: var(--ok); } .pill.no { color: var(--no); }
+.approx { display: block; font: 400 12px/1.4 var(--f-mono); color: var(--mist); margin-top: 2px; }
 .pager { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 14px; font: 400 13px/1.3 var(--f-body); color: var(--mist); flex-wrap: wrap; }
 .pager button { font: 400 12px/1 var(--f-body); letter-spacing: .12em; text-transform: uppercase; padding: 10px 14px; border-radius: 2px; border: 1px solid var(--line); background: transparent; color: var(--ivory); cursor: pointer; }
 .pager button:disabled { opacity: .35; cursor: default; }
@@ -165,7 +166,7 @@ tr.hit td { background: rgba(214,186,128,.1); }
         <li>Challenge Reels'i ostiga o'zingiz ishonadigan <b>bitta kompaniya nomini</b> izoh qilib yozing.</li>
         <li><b>Bir akkauntdan bitta ovoz</b>: faqat birinchi to'g'ri izoh hisoblanadi.</li>
         <li>Hayot sug'urtasi uchun to'liq yozing: <b>Apex Life, Kafolat Hayot, O'zbekinvest Hayot, Alfa Life</b>. Faqat "Apex" deb yozilsa, ovoz umumiy sug'urta kompaniyasiga beriladi.</li>
-        <li>Bir izohda ikki va undan ortiq nom bo'lsa, ovoz <b>hisoblanmaydi</b>.</li>
+        <li>Bir izohda ikki va undan ortiq nom bo'lsa, ovoz <b>hisoblanmaydi</b>. Qisqartma va kichik xatolar tushuniladi (masalan, «Inso» → Inson) va lavhada «taxminiy» deb belgilanadi.</li>
         <li>Ovoz berish Reels joylangan kundan boshlab <b>30 kun</b> davom etadi va 30-kuni <b>tungi soat 12:00 da</b> (Toshkent vaqti) yakunlanadi. Muddatdan keyingi izohlar hisoblanmaydi. Qoidalar boshlanishdan oldin e'lon qilingan va o'zgarmaydi.</li>
       </ol>
     </details>
@@ -275,7 +276,7 @@ function renderLedger() {
   $("rows").innerHTML = slice.length ? slice.map(v => {
     const ok = v.status === "hisoblandi";
     return `<tr class="${q && v.username.toLowerCase() === q ? "hit" : ""}"><td class="t">${tashkent(v.timestamp)}</td><td class="u">@${esc(v.username)}</td><td class="c">${esc(v.text)}</td>
-      <td>${esc(v.company_name || "—")}</td><td><span class="pill ${ok ? "ok" : "no"}">${ok ? "Hisoblandi" : esc(v.reason)}</span></td></tr>`;
+      <td>${esc(v.company_name || "—")}${v.approx && v.company_name ? `<small class="approx">«${esc(v.approx)}» deb yozilgan</small>` : ""}</td><td><span class="pill ${ok ? "ok" : "no"}">${ok ? (v.approx ? "Hisoblandi · taxminiy" : "Hisoblandi") : esc(v.reason)}</span></td></tr>`;
   }).join("") : `<tr><td colspan="5" class="empty">${q ? "Bu nik yoki nom bo'yicha izoh topilmadi." : "Hozircha izohlar yo'q."}</td></tr>`;
   $("pinfo").textContent = rows.length ? `${page * PAGE + 1}–${page * PAGE + slice.length} / ${fmt.format(rows.length)} ta izoh` : "";
   $("prev").disabled = page === 0;

@@ -28,6 +28,18 @@ CASES = [  # (username, izoh, kutilgan kompaniya yoki rad sababi)
     ("rustam", "SQB", "sqb"),
     ("mention", "@apex_fan @gross.uz qarang", "nom aniqlanmadi"),
     ("mention2", "@dostim Hamkor", "hamkor"),
+    # qisqartma va xatolar
+    ("q1", "Inso", "inson"),
+    ("q2", "Kapitall", "kapital"),
+    ("q3", "Ozbekinvst", "uzbekinvest"),
+    ("q4", "Kafolat hayo", "kafolat_hayot"),
+    ("q5", "Temir", "temiryol"),
+    ("q6", "apex lif", "apex_life"),
+    ("q7", "Квантум", "quantum"),
+    ("q8", "Prestij insurance", "prestige"),
+    ("q9", "imkoni bo'lsa Apex", "apex"),
+    ("q10", "zo'r", "nom aniqlanmadi"),
+    ("q11", "Sqbb", "nom aniqlanmadi"),
     ("kech", "Apex", "muddatdan keyin"),
 ]
 
