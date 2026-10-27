@@ -137,9 +137,14 @@ tr.hit td { background: rgba(214,186,128,.1); }
 .chev::before { content: ""; position: absolute; left: 50%; top: 45%; width: 8px; height: 8px; border-right: 1.5px solid var(--gold); border-bottom: 1.5px solid var(--gold); transform: translate(-50%, -50%) rotate(45deg); }
 .rules[open] .chev { transform: rotate(180deg); }
 .rules[open] .rules-hint::after { content: " · yopish uchun bosing"; }
-.rules ol { margin: 0; padding: 4px 20px 20px; list-style: none; counter-reset: r; display: grid; gap: 12px; border-top: 1px solid var(--line); padding-top: 16px; }
-.rules li { counter-increment: r; display: grid; grid-template-columns: 32px 1fr; color: var(--ivory); font-size: 15px; }
-.rules li::before { content: counter(r, upper-roman); font: italic 500 18px/1.4 var(--f-display); color: var(--gold); }
+.rules ol { margin: 0; padding: 4px 20px 8px; list-style: none; counter-reset: r; display: grid; border-top: 1px solid var(--line); }
+.rules li { counter-increment: r; display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 0 14px; align-items: start; padding: 16px 0; }
+.rules li + li { border-top: 1px solid rgba(214,186,128,.12); }
+.rules li::before { content: counter(r, upper-roman); width: 40px; height: 40px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%;
+  font: italic 500 17px/1 var(--f-display); color: var(--gold); }
+.rule-body { display: block; min-width: 0; }
+.rule-head { display: block; font: 600 19px/1.25 var(--f-display); color: var(--gold-hi); margin: 2px 0 4px; }
+.rule-text { display: block; font: 300 15px/1.6 var(--f-body); color: var(--ivory); overflow-wrap: anywhere; }
 .rules b { font-weight: 500; color: var(--gold-hi); }
 .foot { font: 400 12px/1.6 var(--f-body); letter-spacing: .06em; color: var(--mist); display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 24px; text-align: center; }
 
@@ -164,11 +169,11 @@ tr.hit td { background: rgba(214,186,128,.1); }
     <details class="rules" id="rules">
       <summary><span class="rules-title">Ovoz berish qoidalari</span><span class="rules-hint">5 ta qoida · ochish uchun bosing</span><span class="chev" aria-hidden="true"></span></summary>
       <ol>
-        <li>Challenge Reels'i ostiga o'zingiz ishonadigan <b>bitta kompaniya nomini</b> izoh qilib yozing.</li>
-        <li><b>Bir akkauntdan bitta ovoz</b>: faqat birinchi to'g'ri izoh hisoblanadi.</li>
-        <li>Hayot sug'urtasi uchun to'liq yozing: <b>Apex Life, Kafolat Hayot, O'zbekinvest Hayot, Alfa Life</b>. Faqat "Apex" deb yozilsa, ovoz umumiy sug'urta kompaniyasiga beriladi.</li>
-        <li>Bir izohda ikki va undan ortiq nom bo'lsa, ovoz <b>hisoblanmaydi</b>. Qisqartma va kichik xatolar tushuniladi (masalan, «Inso» → Inson) va lavhada «taxminiy» deb belgilanadi.</li>
-        <li>Ovoz berish Reels joylangan kundan boshlab <b>30 kun</b> davom etadi va 30-kuni <b>tungi soat 12:00 da</b> (Toshkent vaqti) yakunlanadi. Muddatdan keyingi izohlar hisoblanmaydi. Qoidalar boshlanishdan oldin e'lon qilingan va o'zgarmaydi.</li>
+        <li><div class="rule-body"><span class="rule-head">Qanday ovoz beriladi</span><span class="rule-text">Challenge Reels'i ostiga o'zingiz ishonadigan <b>bitta kompaniya nomini</b> izoh qilib yozing.</span></div></li>
+        <li><div class="rule-body"><span class="rule-head">Bir akkaunt — bitta ovoz</span><span class="rule-text">Faqat <b>birinchi to'g'ri izoh</b> hisoblanadi, keyingilari takroriy deb belgilanadi.</span></div></li>
+        <li><div class="rule-body"><span class="rule-head">Hayot sug'urtasi</span><span class="rule-text">To'liq yozing: <b>Apex Life, Kafolat Hayot, O'zbekinvest Hayot, Alfa Life</b>. Faqat «Apex» deb yozilsa, ovoz umumiy sug'urta kompaniyasiga beriladi.</span></div></li>
+        <li><div class="rule-body"><span class="rule-head">Bir izohda — bitta nom</span><span class="rule-text">Ikki va undan ortiq nom yozilsa, ovoz <b>hisoblanmaydi</b>. Qisqartma va kichik xatolar tushuniladi (masalan, «Inso» → Inson) va lavhada «taxminiy» deb belgilanadi.</span></div></li>
+        <li><div class="rule-body"><span class="rule-head">Muddat</span><span class="rule-text">Ovoz berish Reels joylangan kundan boshlab <b>30 kun</b> davom etadi va 30-kuni <b>tungi soat 12:00 da</b> (Toshkent vaqti) yakunlanadi. Qoidalar boshlanishdan oldin e'lon qilingan va o'zgarmaydi.</span></div></li>
       </ol>
     </details>
     <div class="sample" id="sample" hidden>Namuna ma'lumot: challenge hali boshlanmagan, raqamlar sinov uchun</div>

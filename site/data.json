@@ -3,135 +3,139 @@
  "permalink": "https://www.instagram.com/reel/De_FOZuqBUg/",
  "sample": false,
  "pending": false,
- "updated_at": "2026-10-27T05:45:07+00:00",
+ "api_usage": {
+  "peak": 1,
+  "calls": 2
+ },
+ "updated_at": "2026-10-27T07:01:36+00:00",
  "deadline": "2026-11-26T00:00:00+05:00",
- "total_comments": 8,
- "counted_votes": 5,
+ "total_comments": 15,
+ "counted_votes": 11,
  "ranking": [
   {
    "rank": 1,
    "id": "gross",
    "name": "Gross Sug'urta",
-   "votes": 4
+   "votes": 8
   },
   {
    "rank": 2,
+   "id": "apex",
+   "name": "Apex Insurance",
+   "votes": 1
+  },
+  {
+   "rank": 3,
    "id": "asia",
    "name": "Asia Insurance",
    "votes": 1
   },
   {
-   "rank": 3,
+   "rank": 4,
+   "id": "kapital",
+   "name": "Kapital Sug'urta",
+   "votes": 1
+  },
+  {
+   "rank": 5,
    "id": "agros_hayot",
    "name": "Agros Hayot",
    "votes": 0
   },
   {
-   "rank": 4,
+   "rank": 6,
    "id": "alfa_invest",
    "name": "Alfa Invest Sug'urta",
    "votes": 0
   },
   {
-   "rank": 5,
+   "rank": 7,
    "id": "alfa_life",
    "name": "Alfa Life Insurance",
    "votes": 0
   },
   {
-   "rank": 6,
+   "rank": 8,
    "id": "alskom",
    "name": "Alskom",
    "votes": 0
   },
   {
-   "rank": 7,
-   "id": "apex",
-   "name": "Apex Insurance",
-   "votes": 0
-  },
-  {
-   "rank": 8,
+   "rank": 9,
    "id": "apex_life",
    "name": "Apex Life Insurance",
    "votes": 0
   },
   {
-   "rank": 9,
+   "rank": 10,
    "id": "aria",
    "name": "Aria Sug'urta",
    "votes": 0
   },
   {
-   "rank": 10,
+   "rank": 11,
    "id": "euroasia",
    "name": "Euroasia Insurance",
    "votes": 0
   },
   {
-   "rank": 11,
+   "rank": 12,
    "id": "hamkor",
    "name": "Hamkor Sug'urta",
    "votes": 0
   },
   {
-   "rank": 12,
+   "rank": 13,
    "id": "ingo",
    "name": "INGO-Uzbekiston",
    "votes": 0
   },
   {
-   "rank": 13,
+   "rank": 14,
    "id": "imkon",
    "name": "Imkon Sug'urta",
    "votes": 0
   },
   {
-   "rank": 14,
+   "rank": 15,
    "id": "impex",
    "name": "Impex Insurance",
    "votes": 0
   },
   {
-   "rank": 15,
+   "rank": 16,
    "id": "infinity",
    "name": "Infinity Insurance",
    "votes": 0
   },
   {
-   "rank": 16,
+   "rank": 17,
    "id": "inson",
    "name": "Inson",
    "votes": 0
   },
   {
-   "rank": 17,
+   "rank": 18,
    "id": "ishonch",
    "name": "Ishonch Sug'urta",
    "votes": 0
   },
   {
-   "rank": 18,
+   "rank": 19,
    "id": "kafil",
    "name": "Kafil Sug'urta",
    "votes": 0
   },
   {
-   "rank": 19,
+   "rank": 20,
    "id": "kafolat_hayot",
    "name": "Kafolat Hayot Insurance",
    "votes": 0
   },
   {
-   "rank": 20,
+   "rank": 21,
    "id": "kafolat",
    "name": "Kafolat Sug'urta",
-   "votes": 0
-  },
-  {
-   "rank": 21,
-   "id": "kapital",
-   "name": "Kapital Sug'urta",
    "votes": 0
   },
   {
@@ -294,6 +298,76 @@
    "timestamp": "2026-10-27T05:33:00+0000",
    "username": "pulatov715_",
    "text": "gross",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "timestamp": "2026-10-27T05:45:43+0000",
+   "username": "utkir01",
+   "text": "Gross sugurta",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "timestamp": "2026-10-27T06:34:01+0000",
+   "username": "ifarhod",
+   "text": "Kapital sug’urta",
+   "company": "kapital",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Kapital Sug'urta"
+  },
+  {
+   "timestamp": "2026-10-27T06:36:01+0000",
+   "username": "mr_tdd_",
+   "text": "GROSS",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "timestamp": "2026-10-27T06:42:37+0000",
+   "username": "dr.iftikhornigmatov",
+   "text": "man faqat sizikiga ishonaman #siz qaysini taklif qilsez owa yetarli manga oka",
+   "company": null,
+   "status": "rad etildi",
+   "reason": "nom aniqlanmadi",
+   "approx": "",
+   "company_name": null
+  },
+  {
+   "timestamp": "2026-10-27T06:44:45+0000",
+   "username": "otabek.sugurta",
+   "text": "AO “Apex insurance”",
+   "company": "apex",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Apex Insurance"
+  },
+  {
+   "timestamp": "2026-10-27T06:46:55+0000",
+   "username": "ftp.riot",
+   "text": "Gross 🔥",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "timestamp": "2026-10-27T06:53:49+0000",
+   "username": "jaxongir.1111",
+   "text": "Gross 🔥",
    "company": "gross",
    "status": "hisoblandi",
    "reason": "",
