@@ -61,7 +61,7 @@ jobs:
           artifact_name: sahifa-1
       - name: Javoblar va kutish 1
         run: |
-          python replies.py --budget 530 --push || true
+          sleep 540  # javoblar o'chirilgan: @jakhongir_bakiev nomidan API orqali yozib bo'lmaydi
         continue-on-error: true
 
       # --- 2/6 ---
@@ -84,7 +84,7 @@ jobs:
           artifact_name: sahifa-2
       - name: Javoblar va kutish 2
         run: |
-          python replies.py --budget 530 --push || true
+          sleep 540  # javoblar o'chirilgan: @jakhongir_bakiev nomidan API orqali yozib bo'lmaydi
         continue-on-error: true
 
       # --- 3/6 ---
@@ -107,7 +107,7 @@ jobs:
           artifact_name: sahifa-3
       - name: Javoblar va kutish 3
         run: |
-          python replies.py --budget 530 --push || true
+          sleep 540  # javoblar o'chirilgan: @jakhongir_bakiev nomidan API orqali yozib bo'lmaydi
         continue-on-error: true
 
       # --- 4/6 ---
@@ -130,7 +130,7 @@ jobs:
           artifact_name: sahifa-4
       - name: Javoblar va kutish 4
         run: |
-          python replies.py --budget 530 --push || true
+          sleep 540  # javoblar o'chirilgan: @jakhongir_bakiev nomidan API orqali yozib bo'lmaydi
         continue-on-error: true
 
       # --- 5/6 ---
@@ -153,7 +153,7 @@ jobs:
           artifact_name: sahifa-5
       - name: Javoblar va kutish 5
         run: |
-          python replies.py --budget 530 --push || true
+          sleep 540  # javoblar o'chirilgan: @jakhongir_bakiev nomidan API orqali yozib bo'lmaydi
         continue-on-error: true
 
       # --- 6/6 ---
