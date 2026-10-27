@@ -40,6 +40,14 @@ CASES = [  # (username, izoh, kutilgan kompaniya yoki rad sababi)
     ("q9", "imkoni bo'lsa Apex", "apex"),
     ("q10", "zo'r", "nom aniqlanmadi"),
     ("q11", "Sqbb", "nom aniqlanmadi"),
+    # oddiy so'z-nomlar va tashkilotchi
+    ("x1", "Assalomu aleykum Joxongir Aka Sugurta kampaniyalarga ishonch qomadiku eng ablax kampaniya Azia sugurtasi", "asia"),
+    ("x2", "Ishonch", "ishonch"),
+    ("x3", "Ishonch sug'urta", "ishonch"),
+    ("x4", "Menga inson kerak, gap yo'q", "nom aniqlanmadi"),
+    ("x5", "Kafolatga ishonaman", "nom aniqlanmadi"),
+    ("x6", "Inson", "inson"),
+    ("ins24uz", "Gross", "tashkilotchi"),
     ("kech", "Apex", "muddatdan keyin"),
 ]
 

@@ -1,45 +1,364 @@
 {
   "_izoh": "Ovoz berish ro'yxati. Manba: deposits.uz (2026-10-26), NAPP H1 2026 ma'lumotiga ko'ra bozorda 35 ta kompaniya. Har bir kompaniya alohida nomzod. Bir nechta alias mos kelsa, eng uzun mos kelgani g'olib: 'apex life' -> apex_life, faqat 'apex' -> apex (umumiy sug'urta). Bu qoidalarda e'lon qilinadi. Aliaslar kichik harfda, tutuq belgisiz yoziladi — skript solishtirishdan oldin izohni ham shunday tozalaydi.",
   "excluded": [
-    {"name": "Global Insurance Group", "reason": "litsenziya bekor qilingan (2026-05-09)"},
-    {"name": "Omad Sug'urta", "reason": "litsenziya bekor qilingan"},
-    {"name": "O'zbekiston Qayta Sug'urta Kompaniyasi", "reason": "qayta sug'urtachi, aholiga xizmat ko'rsatmaydi"}
+    {
+      "name": "Global Insurance Group",
+      "reason": "litsenziya bekor qilingan (2026-05-09)"
+    },
+    {
+      "name": "Omad Sug'urta",
+      "reason": "litsenziya bekor qilingan"
+    },
+    {
+      "name": "O'zbekiston Qayta Sug'urta Kompaniyasi",
+      "reason": "qayta sug'urtachi, aholiga xizmat ko'rsatmaydi"
+    }
   ],
   "companies": [
-    {"id": "apex", "name": "Apex Insurance", "aliases": ["apex", "apeks", "апекс", "apex insurance"]},
-    {"id": "apex_life", "name": "Apex Life Insurance", "aliases": ["apex life", "apeks life", "апекс лайф"]},
-    {"id": "my_insurance", "name": "My Insurance", "aliases": ["my insurance", "myinsurance", "my-insurance", "май иншуранс", "my ins"]},
-    {"id": "kapital", "name": "Kapital Sug'urta", "aliases": ["kapital", "capital", "капитал"]},
-    {"id": "uzbekinvest", "name": "O'zbekinvest", "aliases": ["ozbekinvest", "uzbekinvest", "узбекинвест"]},
-    {"id": "uzbekinvest_hayot", "name": "O'zbekinvest Hayot", "aliases": ["ozbekinvest hayot", "uzbekinvest hayot", "uzbekinvest life", "узбекинвест хаёт"]},
-    {"id": "gross", "name": "Gross Sug'urta", "aliases": ["gross", "gros", "грос", "гросс"]},
-    {"id": "kafolat", "name": "Kafolat Sug'urta", "aliases": ["kafolat", "кафолат"]},
-    {"id": "kafolat_hayot", "name": "Kafolat Hayot Insurance", "aliases": ["kafolat hayot", "kafolat life", "кафолат хаёт"]},
-    {"id": "euroasia", "name": "Euroasia Insurance", "aliases": ["euroasia", "evroasia", "eurasia", "евроазия", "евразия"]},
-    {"id": "kafil", "name": "Kafil Sug'urta", "aliases": ["kafil", "кафил"]},
-    {"id": "trust", "name": "Trust Insurance", "aliases": ["trust", "траст"]},
-    {"id": "alfa_invest", "name": "Alfa Invest Sug'urta", "aliases": ["alfa invest", "alpha invest", "alfa", "alpha", "альфа", "альфа инвест"]},
-    {"id": "alfa_life", "name": "Alfa Life Insurance", "aliases": ["alfa life", "alpha life", "альфа лайф"]},
-    {"id": "alskom", "name": "Alskom", "aliases": ["alskom", "alscom", "алском"]},
-    {"id": "impex", "name": "Impex Insurance", "aliases": ["impex", "импекс"]},
-    {"id": "inson", "name": "Inson", "aliases": ["inson", "инсон"]},
-    {"id": "sqb", "name": "SQB Insurance", "aliases": ["sqb", "сқб", "скб"]},
-    {"id": "neo", "name": "Neo Insurance", "aliases": ["neo insurance", "neo", "нео"]},
-    {"id": "temiryol", "name": "Temiryo'l Sug'urta", "aliases": ["temiryol", "temir yol", "темирйул", "темирйўл"]},
-    {"id": "uzagro", "name": "O'zagrosug'urta", "aliases": ["ozagro", "uzagro", "ozagrosugurta", "uzagrosugurta", "узагро", "агросугурта"]},
-    {"id": "agros_hayot", "name": "Agros Hayot", "aliases": ["agros hayot", "агрос хаёт"]},
-    {"id": "infinity", "name": "Infinity Insurance", "aliases": ["infinity", "инфинити"]},
-    {"id": "asia", "name": "Asia Insurance", "aliases": ["asia insurance", "asia", "азия"]},
-    {"id": "imkon", "name": "Imkon Sug'urta", "aliases": ["imkon", "имкон"]},
-    {"id": "mosaic", "name": "Mosaic Insurance Group", "aliases": ["mosaic", "mozaik", "мозаик"]},
-    {"id": "ishonch", "name": "Ishonch Sug'urta", "aliases": ["ishonch", "ишонч"]},
-    {"id": "quantum", "name": "Quantum Insurance", "aliases": ["quantum", "kvant", "квантум"]},
-    {"id": "aria", "name": "Aria Sug'urta", "aliases": ["aria", "ария"]},
-    {"id": "xalq", "name": "Xalq Sug'urta", "aliases": ["xalq", "halq", "халк", "халқ"]},
-    {"id": "ingo", "name": "INGO-Uzbekiston", "aliases": ["ingo", "инго"]},
-    {"id": "hamkor", "name": "Hamkor Sug'urta", "aliases": ["hamkor", "хамкор", "ҳамкор"]},
-    {"id": "semurg", "name": "Semurg Sug'urta", "aliases": ["semurg", "semurgh", "семург"]},
-    {"id": "prestige", "name": "Prestige Insurance", "aliases": ["prestige", "prestij", "престиж"]},
-    {"id": "tbc", "name": "TBC Sug'urta", "aliases": ["tbc", "тбс", "тбц"]}
-  ]
+    {
+      "id": "apex",
+      "name": "Apex Insurance",
+      "aliases": [
+        "apex",
+        "apeks",
+        "апекс",
+        "apex insurance"
+      ]
+    },
+    {
+      "id": "apex_life",
+      "name": "Apex Life Insurance",
+      "aliases": [
+        "apex life",
+        "apeks life",
+        "апекс лайф"
+      ]
+    },
+    {
+      "id": "my_insurance",
+      "name": "My Insurance",
+      "aliases": [
+        "my insurance",
+        "myinsurance",
+        "my-insurance",
+        "май иншуранс",
+        "my ins"
+      ]
+    },
+    {
+      "id": "kapital",
+      "name": "Kapital Sug'urta",
+      "aliases": [
+        "kapital",
+        "capital",
+        "капитал"
+      ]
+    },
+    {
+      "id": "uzbekinvest",
+      "name": "O'zbekinvest",
+      "aliases": [
+        "ozbekinvest",
+        "uzbekinvest",
+        "узбекинвест"
+      ]
+    },
+    {
+      "id": "uzbekinvest_hayot",
+      "name": "O'zbekinvest Hayot",
+      "aliases": [
+        "ozbekinvest hayot",
+        "uzbekinvest hayot",
+        "uzbekinvest life",
+        "узбекинвест хаёт"
+      ]
+    },
+    {
+      "id": "gross",
+      "name": "Gross Sug'urta",
+      "aliases": [
+        "gross",
+        "gros",
+        "грос",
+        "гросс"
+      ]
+    },
+    {
+      "id": "kafolat",
+      "name": "Kafolat Sug'urta",
+      "aliases": [
+        "kafolat",
+        "кафолат"
+      ]
+    },
+    {
+      "id": "kafolat_hayot",
+      "name": "Kafolat Hayot Insurance",
+      "aliases": [
+        "kafolat hayot",
+        "kafolat life",
+        "кафолат хаёт"
+      ]
+    },
+    {
+      "id": "euroasia",
+      "name": "Euroasia Insurance",
+      "aliases": [
+        "euroasia",
+        "evroasia",
+        "eurasia",
+        "евроазия",
+        "евразия"
+      ]
+    },
+    {
+      "id": "kafil",
+      "name": "Kafil Sug'urta",
+      "aliases": [
+        "kafil",
+        "кафил"
+      ]
+    },
+    {
+      "id": "trust",
+      "name": "Trust Insurance",
+      "aliases": [
+        "trust",
+        "траст"
+      ]
+    },
+    {
+      "id": "alfa_invest",
+      "name": "Alfa Invest Sug'urta",
+      "aliases": [
+        "alfa invest",
+        "alpha invest",
+        "alfa",
+        "alpha",
+        "альфа",
+        "альфа инвест"
+      ]
+    },
+    {
+      "id": "alfa_life",
+      "name": "Alfa Life Insurance",
+      "aliases": [
+        "alfa life",
+        "alpha life",
+        "альфа лайф"
+      ]
+    },
+    {
+      "id": "alskom",
+      "name": "Alskom",
+      "aliases": [
+        "alskom",
+        "alscom",
+        "алском"
+      ]
+    },
+    {
+      "id": "impex",
+      "name": "Impex Insurance",
+      "aliases": [
+        "impex",
+        "импекс"
+      ]
+    },
+    {
+      "id": "inson",
+      "name": "Inson",
+      "aliases": [
+        "inson",
+        "инсон"
+      ]
+    },
+    {
+      "id": "sqb",
+      "name": "SQB Insurance",
+      "aliases": [
+        "sqb",
+        "сқб",
+        "скб"
+      ]
+    },
+    {
+      "id": "neo",
+      "name": "Neo Insurance",
+      "aliases": [
+        "neo insurance",
+        "neo",
+        "нео"
+      ]
+    },
+    {
+      "id": "temiryol",
+      "name": "Temiryo'l Sug'urta",
+      "aliases": [
+        "temiryol",
+        "temir yol",
+        "темирйул",
+        "темирйўл"
+      ]
+    },
+    {
+      "id": "uzagro",
+      "name": "O'zagrosug'urta",
+      "aliases": [
+        "ozagro",
+        "uzagro",
+        "ozagrosugurta",
+        "uzagrosugurta",
+        "узагро",
+        "агросугурта"
+      ]
+    },
+    {
+      "id": "agros_hayot",
+      "name": "Agros Hayot",
+      "aliases": [
+        "agros hayot",
+        "агрос хаёт"
+      ]
+    },
+    {
+      "id": "infinity",
+      "name": "Infinity Insurance",
+      "aliases": [
+        "infinity",
+        "инфинити"
+      ]
+    },
+    {
+      "id": "asia",
+      "name": "Asia Insurance",
+      "aliases": [
+        "asia insurance",
+        "asia",
+        "азия",
+        "azia",
+        "aziya",
+        "asia sugurta",
+        "azia sugurta"
+      ]
+    },
+    {
+      "id": "imkon",
+      "name": "Imkon Sug'urta",
+      "aliases": [
+        "imkon",
+        "имкон"
+      ]
+    },
+    {
+      "id": "mosaic",
+      "name": "Mosaic Insurance Group",
+      "aliases": [
+        "mosaic",
+        "mozaik",
+        "мозаик"
+      ]
+    },
+    {
+      "id": "ishonch",
+      "name": "Ishonch Sug'urta",
+      "aliases": [
+        "ishonch",
+        "ишонч"
+      ]
+    },
+    {
+      "id": "quantum",
+      "name": "Quantum Insurance",
+      "aliases": [
+        "quantum",
+        "kvant",
+        "квантум"
+      ]
+    },
+    {
+      "id": "aria",
+      "name": "Aria Sug'urta",
+      "aliases": [
+        "aria",
+        "ария"
+      ]
+    },
+    {
+      "id": "xalq",
+      "name": "Xalq Sug'urta",
+      "aliases": [
+        "xalq",
+        "halq",
+        "халк",
+        "халқ"
+      ]
+    },
+    {
+      "id": "ingo",
+      "name": "INGO-Uzbekiston",
+      "aliases": [
+        "ingo",
+        "инго"
+      ]
+    },
+    {
+      "id": "hamkor",
+      "name": "Hamkor Sug'urta",
+      "aliases": [
+        "hamkor",
+        "хамкор",
+        "ҳамкор"
+      ]
+    },
+    {
+      "id": "semurg",
+      "name": "Semurg Sug'urta",
+      "aliases": [
+        "semurg",
+        "semurgh",
+        "семург"
+      ]
+    },
+    {
+      "id": "prestige",
+      "name": "Prestige Insurance",
+      "aliases": [
+        "prestige",
+        "prestij",
+        "престиж"
+      ]
+    },
+    {
+      "id": "tbc",
+      "name": "TBC Sug'urta",
+      "aliases": [
+        "tbc",
+        "тбс",
+        "тбц"
+      ]
+    }
+  ],
+  "weak_words": [
+    "ishonch",
+    "ишонч",
+    "inson",
+    "инсон",
+    "kafolat",
+    "кафолат",
+    "hamkor",
+    "хамкор",
+    "imkon",
+    "имкон",
+    "xalq",
+    "halq",
+    "халк",
+    "trust",
+    "траст"
+  ],
+  "organizers": [
+    "ins24uz",
+    "jakhongir_bakiev"
+  ],
+  "_izoh_weak": "weak_words — oddiy so'z ham bo'lgan nomlar: faqat izoh 3 so'zdan qisqa bo'lsa yoki yonida sug'urta/insurance so'zi bo'lsa hisoblanadi."
 }

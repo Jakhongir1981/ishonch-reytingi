@@ -1,71 +1,71 @@
 {
- "media_id": null,
- "permalink": null,
+ "media_id": "18114645647017246",
+ "permalink": "https://www.instagram.com/reel/De_FOZuqBUg/",
  "sample": false,
- "pending": true,
- "updated_at": "2026-10-26T18:41:38+00:00",
- "deadline": null,
- "total_comments": 0,
- "counted_votes": 0,
+ "pending": false,
+ "updated_at": "2026-10-27T05:45:07+00:00",
+ "deadline": "2026-11-26T00:00:00+05:00",
+ "total_comments": 8,
+ "counted_votes": 5,
  "ranking": [
   {
    "rank": 1,
+   "id": "gross",
+   "name": "Gross Sug'urta",
+   "votes": 4
+  },
+  {
+   "rank": 2,
+   "id": "asia",
+   "name": "Asia Insurance",
+   "votes": 1
+  },
+  {
+   "rank": 3,
    "id": "agros_hayot",
    "name": "Agros Hayot",
    "votes": 0
   },
   {
-   "rank": 2,
+   "rank": 4,
    "id": "alfa_invest",
    "name": "Alfa Invest Sug'urta",
    "votes": 0
   },
   {
-   "rank": 3,
+   "rank": 5,
    "id": "alfa_life",
    "name": "Alfa Life Insurance",
    "votes": 0
   },
   {
-   "rank": 4,
+   "rank": 6,
    "id": "alskom",
    "name": "Alskom",
    "votes": 0
   },
   {
-   "rank": 5,
+   "rank": 7,
    "id": "apex",
    "name": "Apex Insurance",
    "votes": 0
   },
   {
-   "rank": 6,
+   "rank": 8,
    "id": "apex_life",
    "name": "Apex Life Insurance",
    "votes": 0
   },
   {
-   "rank": 7,
+   "rank": 9,
    "id": "aria",
    "name": "Aria Sug'urta",
    "votes": 0
   },
   {
-   "rank": 8,
-   "id": "asia",
-   "name": "Asia Insurance",
-   "votes": 0
-  },
-  {
-   "rank": 9,
+   "rank": 10,
    "id": "euroasia",
    "name": "Euroasia Insurance",
-   "votes": 0
-  },
-  {
-   "rank": 10,
-   "id": "gross",
-   "name": "Gross Sug'urta",
    "votes": 0
   },
   {
@@ -219,5 +219,86 @@
    "votes": 0
   }
  ],
- "votes": []
+ "votes": [
+  {
+   "timestamp": "2026-10-27T05:16:05+0000",
+   "username": "ins24uz",
+   "text": "📌 OVOZ BERISH: izohga bitta kompaniya nomini yozing, masalan: Apex, Gross, Kapital, Kafolat Hayot.\nJonli reyting va barcha ovozlar — profildagi havolada 👆\nГОЛОСОВАНИЕ: напишите в комментарии название одной компании. Живой рейтинг — по ссылке в профиле 👆",
+   "company": null,
+   "status": "rad etildi",
+   "reason": "tashkilotchi",
+   "approx": "",
+   "company_name": null
+  },
+  {
+   "timestamp": "2026-10-27T05:19:59+0000",
+   "username": "nodirakasimova94",
+   "text": "🔥🔥🔥",
+   "company": null,
+   "status": "rad etildi",
+   "reason": "nom aniqlanmadi",
+   "approx": "",
+   "company_name": null
+  },
+  {
+   "timestamp": "2026-10-27T05:22:15+0000",
+   "username": "sardorbek1981",
+   "text": "Gross",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "timestamp": "2026-10-27T05:26:50+0000",
+   "username": "abidabuumar",
+   "text": "Gross",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "timestamp": "2026-10-27T05:26:55+0000",
+   "username": "abidabuumar",
+   "text": "Kapital",
+   "company": "kapital",
+   "status": "rad etildi",
+   "reason": "takroriy",
+   "approx": "",
+   "company_name": "Kapital Sug'urta"
+  },
+  {
+   "timestamp": "2026-10-27T05:29:14+0000",
+   "username": "xusan_temurov",
+   "text": "Assalomu aleykum Joxongir Aka Sugurta kampaniyalarga ishonch qomadiku eng ablax kampaniya Azia sugurtasi",
+   "company": "asia",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Asia Insurance"
+  },
+  {
+   "timestamp": "2026-10-27T05:32:58+0000",
+   "username": "nurilla.kholmatov",
+   "text": "Gross Insurance 🔥",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "timestamp": "2026-10-27T05:33:00+0000",
+   "username": "pulatov715_",
+   "text": "gross",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  }
+ ]
 }

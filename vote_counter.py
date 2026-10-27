@@ -48,7 +48,22 @@ def load_companies():
             if words:
                 aliases.setdefault(len(words), []).append((words, c["id"]))
     names = {c["id"]: c["name"] for c in data["companies"]}
+    WEAK.update(normalize(w).strip() for w in data.get("weak_words", []))
+    ORGANIZERS.update(u.lower() for u in data.get("organizers", []))
     return aliases, names
+
+
+WEAK = set()        # oddiy so'z ham bo'lgan nomlar ("ishonch" = ishonch, "inson" = odam)
+ORGANIZERS = set()  # tashkilotchilar akkauntlari — ularning izohi ovoz emas
+INDUSTRY = ("sugurt", "insur", "страх", "сугурт", "kompaniya", "компани")
+
+
+def weak_ok(tokens, i, words):
+    """Oddiy so'z-nom faqat qisqa izohda yoki yonida "sug'urta/insurance" bo'lsa nom sifatida olinadi."""
+    if not (len(words) == 1 and words[0] in WEAK):
+        return True
+    nxt = tokens[i + 1] if i + 1 < len(tokens) else ""
+    return len(tokens) <= 3 or nxt.startswith(INDUSTRY)
 
 
 def edit_distance(a, b):
@@ -90,11 +105,12 @@ def match_companies(text, aliases):
                 if any(used[i:i + n]):
                     continue
                 gram = tuple(tokens[i:i + n])
-                cands = {cid for words, cid in aliases[n] if words == gram}
+                cands = {cid for words, cid in aliases[n] if words == gram and weak_ok(tokens, i, words)}
                 if not cands and (n > 1 or fuzzy_single):
                     cands = {cid for words, cid in aliases[n]
                              if all(close_word(w, a, n > 1) for w, a in zip(gram, words))
-                             and (n == 1 or any(w == a for w, a in zip(gram, words)))}
+                             and (n == 1 or any(w == a for w, a in zip(gram, words)))
+                             and weak_ok(tokens, i, words)}
                     if cands:
                         approx.append(" ".join(gram))
                 if cands:
@@ -116,7 +132,9 @@ def classify(comments, aliases, deadline=None):
         ids, approx = match_companies(c["text"], aliases)
         row = dict(c, company=None, status="rad etildi", reason="", approx=", ".join(approx))
         ts = dt.datetime.fromisoformat(c["timestamp"].replace("+0000", "+00:00"))
-        if deadline and ts > deadline:
+        if c["username"].lower() in ORGANIZERS:
+            row["reason"] = "tashkilotchi"
+        elif deadline and ts > deadline:
             row["reason"] = "muddatdan keyin"
         elif not ids:
             row["reason"] = "nom aniqlanmadi"
