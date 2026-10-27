@@ -58,7 +58,17 @@ def build(data):
         tail = "срок не задан"
     peak = usage.get("peak", 0)
     state = "✅ работает" if peak < 50 else ("⚠️ нагрузка высокая" if peak < 70 else "⛔ подсчёт приостановлен")
-    lines += ["", f"Система: {state}, нагрузка Instagram {peak}% (запросов: {usage.get('calls', 0)}), {tail}", SITE_URL]
+    lines += ["", f"Система: {state}, нагрузка Instagram {peak}% (запросов: {usage.get('calls', 0)}), {tail}"]
+    jf = ROOT / "javoblar.json"
+    if (ROOT / "javoblar_yoqilgan").exists() and jf.exists():
+        js = json.loads(jf.read_text(encoding="utf-8"))
+        sent = [dt.datetime.fromisoformat(t) for t in js.get("sent_at", [])]
+        recent = sum(now - t < dt.timedelta(hours=2) for t in sent)
+        waiting = len({v["username"].lower() for v in ok} - set(js.get("users", [])))
+        paused = js.get("paused_until") and now < dt.datetime.fromisoformat(js["paused_until"])
+        mark = f"⚠️ пауза до {js['paused_until'][11:16]} — Instagram отклонил ответ" if paused else "✅"
+        lines.append(f"Ответы: {mark} +{recent} за 2 ч, всего {len(sent)}, в очереди {waiting}")
+    lines.append(SITE_URL)
     return "\n".join(lines)
 
 

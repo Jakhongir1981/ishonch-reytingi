@@ -2,7 +2,8 @@
 
 Instagram spam deb bilmasligi uchun himoyalar:
   * faqat "hisoblandi" ovozlarga, har bir akkauntga BIR marta;
-  * javoblar orasida tasodifiy 2–5 daqiqa, soatiga 20 / kuniga 150 tadan oshmaydi, tunda (00–08) yozilmaydi;
+  * javoblar orasida tasodifiy 2–5 daqiqa, soatiga 10→15→20 (sekin boshlash), kuniga 150, tunda (00–08) yozilmaydi;
+  * Instagram bitta javobni rad etsa — 6 soat pauza;
   * 10 xil matn, nik va kompaniya nomi bilan — bir xil matn ketma-ket takrorlanmaydi;
   * havola yo'q — "@jakhongir_bakiev profilidagi havola" deb yoziladi;
   * javob berishdan oldin izohda ins24uz yoki @jakhongir_bakiev javobi bor-yo'qligi tekshiriladi;
@@ -31,21 +32,23 @@ from vote_counter import GRAPH, ORGANIZERS, api, check_usage, load_companies, re
 ROOT = pathlib.Path(__file__).parent
 STATE = ROOT / "javoblar.json"
 ME = "ins24uz"
-PER_HOUR, PER_DAY = 20, 150      # tirik odamdek: soatiga 20, kuniga 150 tadan oshmaydi
+PER_DAY = 150
+RAMP = [("2026-10-28", 10), ("2026-10-30", 15), ("9999-12-31", 20)]  # sekin boshlash: soatiga 10 → 15 → 20
+PAUSE_HOURS = 6                  # Instagram javobni rad etsa — 6 soat jim turamiz
 QUIET = range(0, 8)              # Toshkent 00:00–08:00 — javob yozilmaydi
 TK = dt.timezone(dt.timedelta(hours=5))
 
 TEMPLATES = [
     "Rahmat, @{u}! 🙏 Ovozingiz {c} uchun qabul qilindi ✅ Jonli natijalar — @jakhongir_bakiev profilidagi havolada 🏆",
-    "@{u}, ishonchingiz uchun rahmat! {c} kompaniyasiga ovozingiz hisobga olindi ✅ Reytingni @jakhongir_bakiev profilidagi havoladan kuzatib boring 📊",
+    "@{u}, ishonchingiz uchun rahmat! {c} kompaniyasiga ovozingiz hisobga olindi ✅ Reytingni profildagi havoladan kuzatib boring 📊",
     "Ovozingiz qabul qilindi, @{u} ✅ {c} — siz tanlagan kompaniya. Natijalar @jakhongir_bakiev profilidagi havolada 🏆",
-    "Katta rahmat, @{u}! {c} uchun berilgan ovoz reytingga qo'shildi 🙌 Jonli reyting — @jakhongir_bakiev profilida",
+    "Katta rahmat, @{u}! {c} uchun berilgan ovoz reytingga qo'shildi 🙌 Jonli reyting — profildagi havolada",
     "@{u}, ovozingiz {c} hisobiga yozildi ✅ Kim oldinda ekanini @jakhongir_bakiev profilidagi havoladan ko'ring 👀",
-    "Ishtirokingiz uchun rahmat, @{u}! 🤝 {c} — ovozingiz qabul qilindi. Barcha ovozlar ochiq lavhada: @jakhongir_bakiev profilidagi havola",
+    "Ishtirokingiz uchun rahmat, @{u}! 🤝 {c} — ovozingiz qabul qilindi. Barcha ovozlar ochiq lavhada, havola profilda",
     "@{u}, rahmat! 💛 {c} kompaniyasiga bergan ovozingiz reytingda. Natijani @jakhongir_bakiev profilidagi havoladan bilib oling",
-    "Ovoz qabul qilindi ✅ Rahmat, @{u}! {c} uchun. To'liq reyting @jakhongir_bakiev sahifasidagi havolada",
+    "Ovoz qabul qilindi ✅ Rahmat, @{u}! {c} uchun. To'liq reyting profildagi havolada",
     "@{u}, fikringiz biz uchun muhim 🙏 {c} — ovozingiz hisoblandi. Jonli natijalar: @jakhongir_bakiev profilidagi havola",
-    "Rahmat, @{u}! ✨ Siz {c} kompaniyasini tanladingiz — ovoz hisobga olindi. Reyting har 10 daqiqada yangilanadi, havola @jakhongir_bakiev profilida",
+    "Rahmat, @{u}! ✨ Siz {c} kompaniyasini tanladingiz — ovoz hisobga olindi. Reyting har 10 daqiqada yangilanadi, havola profilda",
 ]
 
 
@@ -77,9 +80,9 @@ def pick_template(username, st):
 
 
 def already_replied(comment_id, token):
-    """Biz yoki tashkilotchi (@jakhongir_bakiev) qo'lda javob bergan bo'lsa — qayta yozmaymiz."""
+    """@ins24uz bu izohga avval javob bergan bo'lsa — qayta yozmaymiz (tashkilotchining qo'lda javobi to'sqinlik qilmaydi)."""
     r = api(f"{comment_id}/replies", token, fields="username", limit=50)
-    return any(x.get("username", "").lower() in ORGANIZERS | {ME} for x in r.get("data", []))
+    return any(x.get("username", "").lower() == ME for x in r.get("data", []))
 
 
 def limits_ok(st):
@@ -87,12 +90,19 @@ def limits_ok(st):
     now = dt.datetime.now(TK)
     if now.hour in QUIET:
         return False, "tungi vaqt"
+    if st.get("paused_until") and now < dt.datetime.fromisoformat(st["paused_until"]):
+        return False, f"Instagram rad etgani uchun pauza {st['paused_until'][11:16]} gacha"
+    per_hour = next(n for day, n in RAMP if now.date().isoformat() < day)
     sent = [dt.datetime.fromisoformat(t) for t in st.get("sent_at", [])]
-    if sum(now - t < dt.timedelta(hours=1) for t in sent) >= PER_HOUR:
+    if sum(now - t < dt.timedelta(hours=1) for t in sent) >= per_hour:
         return False, "soatlik chegara"
     if sum(now - t < dt.timedelta(days=1) for t in sent) >= PER_DAY:
         return False, "kunlik chegara"
     return True, ""
+
+
+class Rejected(Exception):
+    pass
 
 
 def reply(comment_id, token, text):
@@ -102,7 +112,7 @@ def reply(comment_id, token, text):
             check_usage(r.headers)
             return json.load(r).get("id")
     except urllib.error.HTTPError as e:
-        raise SystemExit(f"Javob yuborilmadi: {e.read().decode(errors='replace')[:300]}")
+        raise Rejected(e.read().decode(errors="replace")[:300])
 
 
 def queue(st):
@@ -157,7 +167,14 @@ def main():
                 print(f"  @{u}: javob allaqachon bor, o'tkazildi")
             else:
                 text = pick_template(u, st).format(u=v["username"], c=v["company_name"])
-                rid = reply(v["id"], token, text)
+                try:
+                    rid = reply(v["id"], token, text)
+                except Rejected as e:
+                    st["paused_until"] = (dt.datetime.now(TK) + dt.timedelta(hours=PAUSE_HOURS)).isoformat(timespec="seconds")
+                    st["last_error"] = str(e)[:200]
+                    save_state(st, a.push)
+                    print(f"⛔ Instagram rad etdi, {PAUSE_HOURS} soat pauza: {e}")
+                    break
                 sent += 1
                 st.setdefault("sent_at", []).append(dt.datetime.now(TK).isoformat(timespec="seconds"))
                 st["sent_at"] = st["sent_at"][-300:]
