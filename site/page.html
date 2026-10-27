@@ -133,9 +133,10 @@ tr.hit td { background: rgba(214,186,128,.1); }
 .rules summary:hover { background: rgba(214,186,128,.06); }
 .rules-title { font: 600 22px/1.2 var(--f-display); color: var(--gold-hi); }
 .rules-hint { grid-row: 2; font: 400 12px/1.3 var(--f-body); letter-spacing: .08em; color: var(--mist); }
-.chev { grid-row: 1 / 3; grid-column: 2; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 50%; position: relative; transition: transform .25s ease; }
+.chev { grid-row: 1 / 3; grid-column: 2; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 50%; position: relative; }
+.chev::before { transition: transform .25s ease; }
 .chev::before { content: ""; position: absolute; left: 50%; top: 45%; width: 8px; height: 8px; border-right: 1.5px solid var(--gold); border-bottom: 1.5px solid var(--gold); transform: translate(-50%, -50%) rotate(45deg); }
-.rules[open] .chev { transform: rotate(180deg); }
+.rules[open] .chev::before { transform: translate(-50%, -25%) rotate(225deg); }
 .rules .h-open { display: none; } .rules[open] .h-open { display: inline; } .rules[open] .h-closed { display: none; }
 .rules ol { margin: 0; padding: 4px 20px 8px; list-style: none; counter-reset: r; display: grid; border-top: 1px solid var(--line); }
 .rules li { counter-increment: r; display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 0 14px; align-items: start; padding: 16px 0; }
@@ -199,6 +200,7 @@ tr.hit td { background: rgba(214,186,128,.1); }
   .ledger-box td.t { grid-area: t; font-size: 11px; opacity: .8; }
   .ledger-box td.empty { grid-column: 1 / -1; }
   .tools { flex-direction: column; }
+  .tools input { flex: none; width: 100%; }
   .chips { display: grid; grid-template-columns: repeat(3, 1fr); }
   .chip { padding: 12px 6px; letter-spacing: .08em; font-size: 11px; }
 }
