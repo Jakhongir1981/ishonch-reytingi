@@ -41,6 +41,9 @@ jobs:
       - uses: actions/configure-pages@v5
 
       # --- 1/6 ---
+      - name: Yangi versiyani olish 1
+        run: git fetch -q --depth=1 origin main && git reset -q --hard origin/main
+        continue-on-error: true
       - name: Hisob 1
         id: count1
         continue-on-error: true
@@ -59,6 +62,9 @@ jobs:
         run: sleep 540
 
       # --- 2/6 ---
+      - name: Yangi versiyani olish 2
+        run: git fetch -q --depth=1 origin main && git reset -q --hard origin/main
+        continue-on-error: true
       - name: Hisob 2
         id: count2
         continue-on-error: true
@@ -77,6 +83,9 @@ jobs:
         run: sleep 540
 
       # --- 3/6 ---
+      - name: Yangi versiyani olish 3
+        run: git fetch -q --depth=1 origin main && git reset -q --hard origin/main
+        continue-on-error: true
       - name: Hisob 3
         id: count3
         continue-on-error: true
@@ -95,6 +104,9 @@ jobs:
         run: sleep 540
 
       # --- 4/6 ---
+      - name: Yangi versiyani olish 4
+        run: git fetch -q --depth=1 origin main && git reset -q --hard origin/main
+        continue-on-error: true
       - name: Hisob 4
         id: count4
         continue-on-error: true
@@ -113,6 +125,9 @@ jobs:
         run: sleep 540
 
       # --- 5/6 ---
+      - name: Yangi versiyani olish 5
+        run: git fetch -q --depth=1 origin main && git reset -q --hard origin/main
+        continue-on-error: true
       - name: Hisob 5
         id: count5
         continue-on-error: true
@@ -131,6 +146,9 @@ jobs:
         run: sleep 540
 
       # --- 6/6 ---
+      - name: Yangi versiyani olish 6
+        run: git fetch -q --depth=1 origin main && git reset -q --hard origin/main
+        continue-on-error: true
       - name: Hisob 6
         id: count6
         continue-on-error: true
