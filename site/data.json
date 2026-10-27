@@ -7,7 +7,7 @@
   "peak": 1,
   "calls": 2
  },
- "updated_at": "2026-10-27T07:07:31+00:00",
+ "updated_at": "2026-10-27T07:13:34+00:00",
  "deadline": "2026-11-26T00:00:00+05:00",
  "total_comments": 15,
  "counted_votes": 11,
@@ -225,6 +225,7 @@
  ],
  "votes": [
   {
+   "id": "17983871009900632",
    "timestamp": "2026-10-27T05:16:05+0000",
    "username": "ins24uz",
    "text": "📌 OVOZ BERISH: izohga bitta kompaniya nomini yozing, masalan: Apex, Gross, Kapital, Kafolat Hayot.\nJonli reyting va barcha ovozlar — profildagi havolada 👆\nГОЛОСОВАНИЕ: напишите в комментарии название одной компании. Живой рейтинг — по ссылке в профиле 👆",
@@ -235,6 +236,7 @@
    "company_name": null
   },
   {
+   "id": "18212535214322609",
    "timestamp": "2026-10-27T05:19:59+0000",
    "username": "nodirakasimova94",
    "text": "🔥🔥🔥",
@@ -245,6 +247,7 @@
    "company_name": null
   },
   {
+   "id": "18128917501896806",
    "timestamp": "2026-10-27T05:22:15+0000",
    "username": "sardorbek1981",
    "text": "Gross",
@@ -255,6 +258,7 @@
    "company_name": "Gross Sug'urta"
   },
   {
+   "id": "18128904808637493",
    "timestamp": "2026-10-27T05:26:50+0000",
    "username": "abidabuumar",
    "text": "Gross",
@@ -265,6 +269,7 @@
    "company_name": "Gross Sug'urta"
   },
   {
+   "id": "17961722862238237",
    "timestamp": "2026-10-27T05:26:55+0000",
    "username": "abidabuumar",
    "text": "Kapital",
@@ -275,6 +280,7 @@
    "company_name": "Kapital Sug'urta"
   },
   {
+   "id": "18091341935680628",
    "timestamp": "2026-10-27T05:29:14+0000",
    "username": "xusan_temurov",
    "text": "Assalomu aleykum Joxongir Aka Sugurta kampaniyalarga ishonch qomadiku eng ablax kampaniya Azia sugurtasi",
@@ -285,6 +291,7 @@
    "company_name": "Asia Insurance"
   },
   {
+   "id": "17907402270597195",
    "timestamp": "2026-10-27T05:32:58+0000",
    "username": "nurilla.kholmatov",
    "text": "Gross Insurance 🔥",
@@ -295,6 +302,7 @@
    "company_name": "Gross Sug'urta"
   },
   {
+   "id": "18634905820041630",
    "timestamp": "2026-10-27T05:33:00+0000",
    "username": "pulatov715_",
    "text": "gross",
@@ -305,6 +313,7 @@
    "company_name": "Gross Sug'urta"
   },
   {
+   "id": "17917943853264272",
    "timestamp": "2026-10-27T05:45:43+0000",
    "username": "utkir01",
    "text": "Gross sugurta",
@@ -315,6 +324,7 @@
    "company_name": "Gross Sug'urta"
   },
   {
+   "id": "18054905042803793",
    "timestamp": "2026-10-27T06:34:01+0000",
    "username": "ifarhod",
    "text": "Kapital sug’urta",
@@ -325,6 +335,7 @@
    "company_name": "Kapital Sug'urta"
   },
   {
+   "id": "18096332573443372",
    "timestamp": "2026-10-27T06:36:01+0000",
    "username": "mr_tdd_",
    "text": "GROSS",
@@ -335,6 +346,7 @@
    "company_name": "Gross Sug'urta"
   },
   {
+   "id": "18419929342154876",
    "timestamp": "2026-10-27T06:42:37+0000",
    "username": "dr.iftikhornigmatov",
    "text": "man faqat sizikiga ishonaman #siz qaysini taklif qilsez owa yetarli manga oka",
@@ -345,6 +357,7 @@
    "company_name": null
   },
   {
+   "id": "18118835957590157",
    "timestamp": "2026-10-27T06:44:45+0000",
    "username": "otabek.sugurta",
    "text": "AO “Apex insurance”",
@@ -355,6 +368,7 @@
    "company_name": "Apex Insurance"
   },
   {
+   "id": "18096796175443438",
    "timestamp": "2026-10-27T06:46:55+0000",
    "username": "ftp.riot",
    "text": "Gross 🔥",
@@ -365,6 +379,7 @@
    "company_name": "Gross Sug'urta"
   },
   {
+   "id": "18102761750166445",
    "timestamp": "2026-10-27T06:53:49+0000",
    "username": "jaxongir.1111",
    "text": "Gross 🔥",

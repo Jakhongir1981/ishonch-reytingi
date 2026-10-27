@@ -312,7 +312,7 @@ def main():
         "total_comments": len(rows),
         "counted_votes": counted,
         "ranking": ranking,
-        "votes": [{k: r[k] for k in ("timestamp", "username", "text", "company", "status", "reason", "approx")} | {"company_name": names.get(r["company"])} for r in rows],
+        "votes": [{k: r.get(k) for k in ("id", "timestamp", "username", "text", "company", "status", "reason", "approx")} | {"company_name": names.get(r["company"])} for r in rows],
     }
     write_outputs(result)
 

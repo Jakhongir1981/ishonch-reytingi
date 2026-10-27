@@ -2,6 +2,7 @@
 # GitHub'ning jadvali kechikadi (30–45 daq), shuning uchun bitta ishga tushish ~1 soat ishlaydi va
 # ichida 6 marta: hisoblash → sahifani joylash → 9 daqiqa kutish. Keyingi ishga tushish navbatda
 # turadi (concurrency) va darhol davom ettiradi. Instagram'ga yuklama o'zgarmaydi: soatiga 6 hisob.
+# Har tsikl oralig'ida replies.py ovoz berganlarga minnatdorchilik javobini yozadi (himoyalar replies.py ichida).
 # Sozlamalar: Secret IG_TOKEN · Variable IG_USER_ID · rejim rejim.txt faylida.
 name: Ishonch reytingi
 
@@ -13,7 +14,7 @@ on:
     branches: [main]
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -58,8 +59,10 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: sahifa-1
-      - name: Kutish 1
-        run: sleep 540
+      - name: Javoblar va kutish 1
+        run: |
+          python replies.py --budget 530 --push || true
+        continue-on-error: true
 
       # --- 2/6 ---
       - name: Yangi versiyani olish 2
@@ -79,8 +82,10 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: sahifa-2
-      - name: Kutish 2
-        run: sleep 540
+      - name: Javoblar va kutish 2
+        run: |
+          python replies.py --budget 530 --push || true
+        continue-on-error: true
 
       # --- 3/6 ---
       - name: Yangi versiyani olish 3
@@ -100,8 +105,10 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: sahifa-3
-      - name: Kutish 3
-        run: sleep 540
+      - name: Javoblar va kutish 3
+        run: |
+          python replies.py --budget 530 --push || true
+        continue-on-error: true
 
       # --- 4/6 ---
       - name: Yangi versiyani olish 4
@@ -121,8 +128,10 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: sahifa-4
-      - name: Kutish 4
-        run: sleep 540
+      - name: Javoblar va kutish 4
+        run: |
+          python replies.py --budget 530 --push || true
+        continue-on-error: true
 
       # --- 5/6 ---
       - name: Yangi versiyani olish 5
@@ -142,8 +151,10 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: sahifa-5
-      - name: Kutish 5
-        run: sleep 540
+      - name: Javoblar va kutish 5
+        run: |
+          python replies.py --budget 530 --push || true
+        continue-on-error: true
 
       # --- 6/6 ---
       - name: Yangi versiyani olish 6
