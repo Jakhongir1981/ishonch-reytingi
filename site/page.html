@@ -136,7 +136,7 @@ tr.hit td { background: rgba(214,186,128,.1); }
 .chev { grid-row: 1 / 3; grid-column: 2; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 50%; position: relative; transition: transform .25s ease; }
 .chev::before { content: ""; position: absolute; left: 50%; top: 45%; width: 8px; height: 8px; border-right: 1.5px solid var(--gold); border-bottom: 1.5px solid var(--gold); transform: translate(-50%, -50%) rotate(45deg); }
 .rules[open] .chev { transform: rotate(180deg); }
-.rules[open] .rules-hint::after { content: " · yopish uchun bosing"; }
+.rules .h-open { display: none; } .rules[open] .h-open { display: inline; } .rules[open] .h-closed { display: none; }
 .rules ol { margin: 0; padding: 4px 20px 8px; list-style: none; counter-reset: r; display: grid; border-top: 1px solid var(--line); }
 .rules li { counter-increment: r; display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 0 14px; align-items: start; padding: 16px 0; }
 .rules li + li { border-top: 1px solid rgba(214,186,128,.12); }
@@ -149,11 +149,58 @@ tr.hit td { background: rgba(214,186,128,.1); }
 .foot { font: 400 12px/1.6 var(--f-body); letter-spacing: .06em; color: var(--mist); display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 24px; text-align: center; }
 
 @media (max-width: 680px) {
-  .podium { grid-template-columns: 1fr; }
-  .prize.p1, .prize.p2, .prize.p3 { order: 0; }
-  .wrap { gap: 56px; }
-  .counts div { padding-inline: 4px; }
-  .counts span { letter-spacing: .14em; }
+  .wrap { gap: 52px; padding-block: 28px 56px; }
+  h1 { font-size: 46px; }
+  .eyebrow { letter-spacing: .2em; font-size: 11px; }
+  .lede { font-size: 15px; line-height: 1.6; }
+  .live { font-size: 12px; gap: 4px 14px; }
+  .cta { width: 100%; justify-content: center; padding: 16px 20px; }
+  .rules summary { padding: 14px 16px; }
+  .rules-title { font-size: 20px; }
+  .rules ol { padding: 0 16px 6px; }
+  .rules li { grid-template-columns: 34px minmax(0, 1fr); gap: 0 12px; padding: 14px 0; }
+  .rules li::before { width: 34px; height: 34px; font-size: 15px; }
+  .rule-head { font-size: 18px; }
+  .rule-text { font-size: 14px; line-height: 1.55; }
+  .counts div { padding: 18px 4px; }
+  .counts span { letter-spacing: .12em; font-size: 10px; }
+  .sec-head { margin-bottom: 24px; }
+
+  /* Sovrinlar: 1-o'rin keng, 2 va 3 yonma-yon */
+  .podium { grid-template-columns: 1fr 1fr; gap: 12px; align-items: stretch; }
+  .prize { padding: 22px 12px 18px; gap: 8px; }
+  .prize.p1 { grid-column: 1 / -1; order: 0; padding-block: 26px 22px; }
+  .prize.p2 { order: 1; } .prize.p3 { order: 2; }
+  .medal { width: 46px; height: 46px; font-size: 22px; }
+  .p1 .medal { width: 58px; height: 58px; font-size: 28px; }
+  .prize .co { font-size: 19px; }
+  .p1 .co { font-size: 26px; }
+  .prize .v { font-size: 13px; }
+  .prize .place { font-size: 10px; letter-spacing: .24em; }
+
+  .board { margin-top: 28px; }
+  .row { grid-template-columns: 34px minmax(0, 1fr) auto; gap: 4px 12px; padding: 14px 2px; }
+  .rank { font-size: 20px; }
+  .name { font-size: 18px; }
+  .score { font-size: 14px; }
+
+  /* Ochiq lavha: jadval o'rniga kartochkalar */
+  .ledger-box { border: 0; background: transparent; overflow: visible; }
+  .ledger-box table { min-width: 0; }
+  .ledger-box thead { display: none; }
+  .ledger-box table, .ledger-box tbody { display: block; }
+  .ledger-box tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "u s" "k k" "c c" "t t";
+    gap: 4px 12px; padding: 14px 16px; margin-bottom: 10px; border: 1px solid var(--line); background: var(--velvet); }
+  .ledger-box td { display: block; padding: 0; border: 0; max-width: none; }
+  .ledger-box td.u { grid-area: u; font-size: 14px; overflow: hidden; text-overflow: ellipsis; }
+  .ledger-box td.s { grid-area: s; text-align: right; }
+  .ledger-box td.k { grid-area: k; font: 600 18px/1.3 var(--f-display); color: var(--gold-hi); }
+  .ledger-box td.c { grid-area: c; font-size: 13px; }
+  .ledger-box td.t { grid-area: t; font-size: 11px; opacity: .8; }
+  .ledger-box td.empty { grid-column: 1 / -1; }
+  .tools { flex-direction: column; }
+  .chips { display: grid; grid-template-columns: repeat(3, 1fr); }
+  .chip { padding: 12px 6px; letter-spacing: .08em; font-size: 11px; }
 }
 @media (prefers-reduced-motion: reduce) { .dot { animation: none; } .bar i { transition: none; } }
 </style>
@@ -167,7 +214,7 @@ tr.hit td { background: rgba(214,186,128,.1); }
     <div class="live"><span id="liveState"><span class="dot"></span><span>Jonli hisob</span></span><span id="updated">Yuklanmoqda…</span><span id="deadline"></span></div>
     <a class="cta" id="cta" href="https://www.instagram.com/jakhongir_bakiev/" target="_blank" rel="noopener">Ishonch bildirish</a>
     <details class="rules" id="rules">
-      <summary><span class="rules-title">Ovoz berish qoidalari</span><span class="rules-hint">5 ta qoida · ochish uchun bosing</span><span class="chev" aria-hidden="true"></span></summary>
+      <summary><span class="rules-title">Ovoz berish qoidalari</span><span class="rules-hint">5 ta qoida · <span class="h-closed">ochish uchun bosing</span><span class="h-open">yopish uchun bosing</span></span><span class="chev" aria-hidden="true"></span></summary>
       <ol>
         <li><div class="rule-body"><span class="rule-head">Qanday ovoz beriladi</span><span class="rule-text">Challenge Reels'i ostiga o'zingiz ishonadigan <b>bitta kompaniya nomini</b> izoh qilib yozing.</span></div></li>
         <li><div class="rule-body"><span class="rule-head">Bir akkaunt — bitta ovoz</span><span class="rule-text">Faqat <b>birinchi to'g'ri izoh</b> hisoblanadi, keyingilari takroriy deb belgilanadi.</span></div></li>
@@ -283,8 +330,8 @@ function renderLedger() {
   const slice = rows.slice(page * PAGE, page * PAGE + PAGE);
   $("rows").innerHTML = slice.length ? slice.map(v => {
     const ok = v.status === "hisoblandi";
-    return `<tr class="${q && v.username.toLowerCase() === q ? "hit" : ""}"><td class="t">${tashkent(v.timestamp)}</td><td class="u">@${esc(v.username)}</td><td class="c">${esc(v.text)}</td>
-      <td>${esc(v.company_name || "—")}${v.approx && v.company_name ? `<small class="approx">«${esc(v.approx)}» deb yozilgan</small>` : ""}</td><td><span class="pill ${ok ? "ok" : "no"}">${ok ? (v.approx ? "Hisoblandi · taxminiy" : "Hisoblandi") : esc(v.reason)}</span></td></tr>`;
+    return `<tr class="${q && v.username.toLowerCase() === q ? "hit" : ""}"><td class="t">${tashkent(v.timestamp)}</td><td class="u">@${esc(v.username)}</td><td class="c">«${esc(v.text)}»</td>
+      <td class="k">${esc(v.company_name || "—")}${v.approx && v.company_name ? `<small class="approx">«${esc(v.approx)}» deb yozilgan</small>` : ""}</td><td class="s"><span class="pill ${ok ? "ok" : "no"}">${ok ? (v.approx ? "Hisoblandi · taxminiy" : "Hisoblandi") : esc(v.reason)}</span></td></tr>`;
   }).join("") : `<tr><td colspan="5" class="empty">${q ? "Bu nik yoki nom bo'yicha izoh topilmadi." : data.pending ? "Ovoz berish boshlangach, har bir izoh shu yerda paydo bo'ladi." : "Hozircha izohlar yo'q."}</td></tr>`;
   $("pinfo").textContent = rows.length ? `${page * PAGE + 1}–${page * PAGE + slice.length} / ${fmt.format(rows.length)} ta izoh` : "";
   $("prev").disabled = page === 0;
