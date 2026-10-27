@@ -1,0 +1,37 @@
+# Har 2 soatda (Toshkent 08:00–22:00) tizimni tekshiradi va Telegram'ga qisqa hisobot yuboradi.
+# Secrets: IG_TOKEN, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID · Variable: IG_USER_ID
+name: Telegram hisobot
+
+on:
+  schedule:
+    - cron: "0 3-17/2 * * *"   # UTC 03,05,...,17 = Toshkent 08,10,...,22
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  hisobot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ovozlarni sanash (diagnostika)
+        id: count
+        continue-on-error: true
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ vars.IG_USER_ID }}
+        run: python vote_counter.py $(cat rejim.txt) > count.log 2>&1
+      - name: Hisobot yuborish
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ steps.count.outcome }}" = "success" ]; then
+            python report.py
+          else
+            python report.py --error "$(tail -3 count.log)"
+          fi

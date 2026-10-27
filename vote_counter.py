@@ -178,12 +178,14 @@ def api(path, token, **params):
     url = path if path.startswith("http") else f"{GRAPH}/{path}?{urllib.parse.urlencode(params)}"
     try:
         with urllib.request.urlopen(url, timeout=30) as r:
+            USAGE["calls"] += 1
             check_usage(r.headers)
             return json.load(r)
     except urllib.error.HTTPError as e:
         raise SystemExit(f"Instagram API xatosi: {json.load(e).get('error', {}).get('message')}")
 
 
+USAGE = {"peak": 0, "calls": 0}  # hisobot uchun: Meta limitining eng yuqori foizi va so'rovlar soni
 USAGE_LIMIT = 70  # foiz: Meta limitiga yaqinlashsak, bu safar to'xtaymiz — sayt eski raqamlar bilan qoladi
 
 
@@ -195,6 +197,7 @@ def check_usage(headers):
     data = json.loads(raw)
     entries = [e for v in data.values() for e in v] if isinstance(data, dict) and all(isinstance(v, list) for v in data.values()) else [data]
     peak = max((max(e.get("call_count", 0), e.get("total_cputime", 0), e.get("total_time", 0)) for e in entries), default=0)
+    USAGE["peak"] = max(USAGE["peak"], peak)
     if peak >= USAGE_LIMIT:
         raise SystemExit(f"Instagram limiti {peak}% ishlatilgan — bu safar hisob o'tkazib yuborildi")
 
@@ -303,6 +306,7 @@ def main():
         "permalink": permalink,
         "sample": a.sample,
         "pending": a.empty,
+        "api_usage": USAGE,
         "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "deadline": a.deadline,
         "total_comments": len(rows),
