@@ -127,6 +127,11 @@ def main():
     a = p.parse_args()
 
     start = time.time()
+    if not (ROOT / "javoblar_yoqilgan").exists() and not a.dry:
+        print("Avtojavoblar o'chirilgan (javoblar_yoqilgan fayli yo'q)")
+        if a.budget:
+            time.sleep(a.budget)
+        return
     load_companies()  # ORGANIZERS ro'yxatini yuklash
     st = load_state()
     todo = queue(st)
