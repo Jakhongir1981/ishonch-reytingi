@@ -9,7 +9,7 @@ Qoidalar:
 Ishlatish:
   python vote_counter.py --media <MEDIA_ID> [--deadline 2026-11-30T23:59:59+05:00]
   python vote_counter.py --latest-reel
-Natija: output/results.json va output/votes.csv
+Natija: site/data.json (sayt) · output/results.json va output/votes.csv (faqat kompyuterda)
 """
 import argparse
 import csv
@@ -186,7 +186,7 @@ def api(path, token, **params):
 
 
 USAGE = {"peak": 0, "calls": 0}  # hisobot uchun: Meta limitining eng yuqori foizi va so'rovlar soni
-USAGE_LIMIT = 70  # foiz: Meta limitiga yaqinlashsak, bu safar to'xtaymiz — sayt eski raqamlar bilan qoladi
+USAGE_LIMIT = 50  # foiz: Meta limitining yarmiga yetsak to'xtaymiz (ogohlantirish 25% da replies.py da) — sayt eski raqamlar bilan qoladi
 
 
 def check_usage(headers):
@@ -251,13 +251,15 @@ def write_outputs(result):
     OUT.mkdir(exist_ok=True)
     SITE.mkdir(exist_ok=True)
     payload = json.dumps(result, ensure_ascii=False, indent=1)
-    for folder in (OUT, SITE):
-        (folder / ("results.json" if folder == OUT else "data.json")).write_text(payload, encoding="utf-8")
-        with open(folder / "votes.csv", "w", newline="", encoding="utf-8-sig") as f:
-            w = csv.writer(f)
-            w.writerow(["vaqt", "akkaunt", "izoh", "kompaniya", "holat", "sabab", "taxminiy"])
-            for v in result["votes"]:
-                w.writerow([v["timestamp"], v["username"], v["text"], v["company_name"] or "", v["status"], v["reason"], v["approx"]])
+    (OUT / "results.json").write_text(payload, encoding="utf-8")
+    (SITE / "data.json").write_text(payload, encoding="utf-8")
+    # To'liq CSV ro'yxat faqat kompyuterda (output/) — saytga va GitHub'ga chiqmaydi
+    with open(OUT / "votes.csv", "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.writer(f)
+        w.writerow(["vaqt", "akkaunt", "izoh", "kompaniya", "holat", "sabab", "taxminiy"])
+        for v in result["votes"]:
+            w.writerow([v["timestamp"], v["username"], v["text"], v["company_name"] or "", v["status"], v["reason"], v["approx"]])
+    (SITE / "votes.csv").unlink(missing_ok=True)
     # Joylash uchun to'liq HTML hujjat (page.html — sahifaning o'zi)
     page = (SITE / "page.html").read_text(encoding="utf-8")
     (SITE / "index.html").write_text(

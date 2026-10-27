@@ -27,6 +27,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+from report import send as telegram
 from vote_counter import GRAPH, ORGANIZERS, api, check_usage, load_companies, read_env
 
 ROOT = pathlib.Path(__file__).parent
@@ -34,7 +35,9 @@ STATE = ROOT / "javoblar.json"
 ME = "ins24uz"
 PER_DAY = 150
 RAMP = [("2026-10-28", 10), ("2026-10-30", 15), ("9999-12-31", 20)]  # sekin boshlash: soatiga 10 → 15 → 20
-PAUSE_HOURS = 6                  # Instagram javobni rad etsa — 6 soat jim turamiz
+PAUSE_HOURS = 6                  # Instagram javobni rad etsa yoki yashirsa — 6 soat jim turamiz
+WARN_USAGE, STOP_USAGE = 25, 50  # 25% — ogohlantirish va sekinlashish, 50% — to'liq to'xtash (vote_counter)
+ALERT_EVERY = dt.timedelta(hours=3)
 QUIET = range(0, 8)              # Toshkent 00:00–08:00 — javob yozilmaydi
 TK = dt.timezone(dt.timedelta(hours=5))
 
@@ -93,6 +96,8 @@ def limits_ok(st):
     if st.get("paused_until") and now < dt.datetime.fromisoformat(st["paused_until"]):
         return False, f"Instagram rad etgani uchun pauza {st['paused_until'][11:16]} gacha"
     per_hour = next(n for day, n in RAMP if now.date().isoformat() < day)
+    if st.get("slow_until") and now < dt.datetime.fromisoformat(st["slow_until"]):
+        per_hour //= 2
     sent = [dt.datetime.fromisoformat(t) for t in st.get("sent_at", [])]
     if sum(now - t < dt.timedelta(hours=1) for t in sent) >= per_hour:
         return False, "soatlik chegara"
@@ -103,6 +108,45 @@ def limits_ok(st):
 
 class Rejected(Exception):
     pass
+
+
+def alert(st, key, text):
+    """Telegram'ga darhol ogohlantirish; bir xil xabar 3 soatda bir martadan ko'p emas."""
+    now = dt.datetime.now(TK)
+    last = st.setdefault("alerts", {}).get(key)
+    if last and now - dt.datetime.fromisoformat(last) < ALERT_EVERY:
+        return
+    st["alerts"][key] = now.isoformat(timespec="seconds")
+    print("OGOHLANTIRISH:", text)
+    try:
+        telegram("⚠️ <b>Ishonch reytingi</b>\n" + text)
+    except Exception as e:  # Telegram ishlamasa ham asosiy ish to'xtamasin
+        print("Telegram xatosi:", e)
+
+
+def health(st, token):
+    """Xavf belgilarini oldindan aniqlaydi: yuklama, sayt eskirgani, javoblarimiz yashirilgani."""
+    now = dt.datetime.now(TK)
+    data = json.loads((ROOT / "site" / "data.json").read_text(encoding="utf-8"))
+    peak = data.get("api_usage", {}).get("peak", 0)
+    if peak >= STOP_USAGE:
+        alert(st, "stop", f"⛔ Instagram yuklamasi {peak}% — hisob va javoblar to'xtatildi, yuklama tushishini kutamiz.")
+    elif peak >= WARN_USAGE:
+        st["slow_until"] = (now + dt.timedelta(hours=3)).isoformat(timespec="seconds")
+        alert(st, "warn", f"Instagram yuklamasi {peak}% (chegara 50%). Javoblar tezligi 3 soatga ikki baravar kamaytirildi.")
+    age = now - dt.datetime.fromisoformat(data["updated_at"])
+    if age > dt.timedelta(minutes=30):
+        alert(st, "stale", f"Sayt {int(age.total_seconds() // 60)} daqiqadan beri yangilanmagan — hisob ishlamayapti.")
+    for rid in st.get("reply_ids", [])[-3:]:  # oxirgi javoblarimiz joyidami?
+        try:
+            r = api(rid, token, fields="hidden,text")
+            bad = r.get("hidden") is True
+        except SystemExit:
+            bad = True
+        if bad:
+            st["paused_until"] = (now + dt.timedelta(hours=PAUSE_HOURS)).isoformat(timespec="seconds")
+            alert(st, "hidden", f"Instagram javoblarimizdan birini yashirdi yoki o'chirdi. Javoblar {PAUSE_HOURS} soatga to'xtatildi.")
+            break
 
 
 def reply(comment_id, token, text):
@@ -137,13 +181,19 @@ def main():
     a = p.parse_args()
 
     start = time.time()
+    st = load_state()
+    if not a.dry:
+        try:
+            health(st, read_env()["IG_TOKEN"])
+        except Exception as e:
+            print("Diagnostika xatosi:", e)
+        save_state(st, a.push)
     if not (ROOT / "javoblar_yoqilgan").exists() and not a.dry:
         print("Avtojavoblar o'chirilgan (javoblar_yoqilgan fayli yo'q)")
         if a.budget:
             time.sleep(a.budget)
         return
     load_companies()  # ORGANIZERS ro'yxatini yuklash
-    st = load_state()
     todo = queue(st)
     print(f"Navbatda: {len(todo)} ta javob")
     try:
@@ -172,11 +222,14 @@ def main():
                 except Rejected as e:
                     st["paused_until"] = (dt.datetime.now(TK) + dt.timedelta(hours=PAUSE_HOURS)).isoformat(timespec="seconds")
                     st["last_error"] = str(e)[:200]
+                    alert(st, "rejected", f"⛔ Instagram javobni rad etdi — javoblar {PAUSE_HOURS} soatga to'xtatildi.\n{str(e)[:150]}")
                     save_state(st, a.push)
                     print(f"⛔ Instagram rad etdi, {PAUSE_HOURS} soat pauza: {e}")
                     break
                 sent += 1
                 st.setdefault("sent_at", []).append(dt.datetime.now(TK).isoformat(timespec="seconds"))
+                st.setdefault("reply_ids", []).append(rid)
+                st["reply_ids"] = st["reply_ids"][-50:]
                 st["sent_at"] = st["sent_at"][-300:]
                 print(f"  ✅ @{u} → {rid}")
             st["users"].append(u)

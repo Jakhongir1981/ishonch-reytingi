@@ -7,16 +7,16 @@
   "peak": 1,
   "calls": 2
  },
- "updated_at": "2026-10-27T07:13:34+00:00",
+ "updated_at": "2026-10-27T16:19:03+00:00",
  "deadline": "2026-11-26T00:00:00+05:00",
- "total_comments": 15,
- "counted_votes": 11,
+ "total_comments": 26,
+ "counted_votes": 19,
  "ranking": [
   {
    "rank": 1,
    "id": "gross",
    "name": "Gross Sug'urta",
-   "votes": 8
+   "votes": 15
   },
   {
    "rank": 2,
@@ -32,110 +32,110 @@
   },
   {
    "rank": 4,
+   "id": "kafolat",
+   "name": "Kafolat Sug'urta",
+   "votes": 1
+  },
+  {
+   "rank": 5,
    "id": "kapital",
    "name": "Kapital Sug'urta",
    "votes": 1
   },
   {
-   "rank": 5,
+   "rank": 6,
    "id": "agros_hayot",
    "name": "Agros Hayot",
    "votes": 0
   },
   {
-   "rank": 6,
+   "rank": 7,
    "id": "alfa_invest",
    "name": "Alfa Invest Sug'urta",
    "votes": 0
   },
   {
-   "rank": 7,
+   "rank": 8,
    "id": "alfa_life",
    "name": "Alfa Life Insurance",
    "votes": 0
   },
   {
-   "rank": 8,
+   "rank": 9,
    "id": "alskom",
    "name": "Alskom",
    "votes": 0
   },
   {
-   "rank": 9,
+   "rank": 10,
    "id": "apex_life",
    "name": "Apex Life Insurance",
    "votes": 0
   },
   {
-   "rank": 10,
+   "rank": 11,
    "id": "aria",
    "name": "Aria Sug'urta",
    "votes": 0
   },
   {
-   "rank": 11,
+   "rank": 12,
    "id": "euroasia",
    "name": "Euroasia Insurance",
    "votes": 0
   },
   {
-   "rank": 12,
+   "rank": 13,
    "id": "hamkor",
    "name": "Hamkor Sug'urta",
    "votes": 0
   },
   {
-   "rank": 13,
+   "rank": 14,
    "id": "ingo",
    "name": "INGO-Uzbekiston",
    "votes": 0
   },
   {
-   "rank": 14,
+   "rank": 15,
    "id": "imkon",
    "name": "Imkon Sug'urta",
    "votes": 0
   },
   {
-   "rank": 15,
+   "rank": 16,
    "id": "impex",
    "name": "Impex Insurance",
    "votes": 0
   },
   {
-   "rank": 16,
+   "rank": 17,
    "id": "infinity",
    "name": "Infinity Insurance",
    "votes": 0
   },
   {
-   "rank": 17,
+   "rank": 18,
    "id": "inson",
    "name": "Inson",
    "votes": 0
   },
   {
-   "rank": 18,
+   "rank": 19,
    "id": "ishonch",
    "name": "Ishonch Sug'urta",
    "votes": 0
   },
   {
-   "rank": 19,
+   "rank": 20,
    "id": "kafil",
    "name": "Kafil Sug'urta",
    "votes": 0
   },
   {
-   "rank": 20,
+   "rank": 21,
    "id": "kafolat_hayot",
    "name": "Kafolat Hayot Insurance",
-   "votes": 0
-  },
-  {
-   "rank": 21,
-   "id": "kafolat",
-   "name": "Kafolat Sug'urta",
    "votes": 0
   },
   {
@@ -388,6 +388,127 @@
    "reason": "",
    "approx": "",
    "company_name": "Gross Sug'urta"
+  },
+  {
+   "id": "18132692038749868",
+   "timestamp": "2026-10-27T07:32:23+0000",
+   "username": "ortiqovadurdona",
+   "text": "Gross🔥🔥",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "id": "18132895147827962",
+   "timestamp": "2026-10-27T08:01:51+0000",
+   "username": "_dldidi",
+   "text": "Gross",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "id": "17899272954392918",
+   "timestamp": "2026-10-27T09:02:26+0000",
+   "username": "israilov709",
+   "text": "Gross insurance",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "id": "18000946620033052",
+   "timestamp": "2026-10-27T09:48:08+0000",
+   "username": "rustaminsurance",
+   "text": "GROSS",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "id": "18115936172026348",
+   "timestamp": "2026-10-27T09:59:45+0000",
+   "username": "umarov0050",
+   "text": "🔥🔥🔥",
+   "company": null,
+   "status": "rad etildi",
+   "reason": "nom aniqlanmadi",
+   "approx": "",
+   "company_name": null
+  },
+  {
+   "id": "18115359848033649",
+   "timestamp": "2026-10-27T09:59:46+0000",
+   "username": "umarov0050",
+   "text": "🔥",
+   "company": null,
+   "status": "rad etildi",
+   "reason": "nom aniqlanmadi",
+   "approx": "",
+   "company_name": null
+  },
+  {
+   "id": "17975085702171478",
+   "timestamp": "2026-10-27T10:00:12+0000",
+   "username": "umarov0050",
+   "text": "GROSS",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "id": "18103869686562879",
+   "timestamp": "2026-10-27T10:14:01+0000",
+   "username": "baxodir_yu",
+   "text": "Gross",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "id": "18115175771028514",
+   "timestamp": "2026-10-27T11:07:30+0000",
+   "username": "pro_444_11_",
+   "text": "🔥🔥🔥🔥",
+   "company": null,
+   "status": "rad etildi",
+   "reason": "nom aniqlanmadi",
+   "approx": "",
+   "company_name": null
+  },
+  {
+   "id": "18137083051656886",
+   "timestamp": "2026-10-27T12:25:49+0000",
+   "username": "qaxxorovotajon",
+   "text": "Gross sug’urta kompanyasi",
+   "company": "gross",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Gross Sug'urta"
+  },
+  {
+   "id": "17944763457091083",
+   "timestamp": "2026-10-27T14:30:29+0000",
+   "username": "sultonov.izzatullo",
+   "text": "KAFOLAT SUGURTA KOMPANIYASI",
+   "company": "kafolat",
+   "status": "hisoblandi",
+   "reason": "",
+   "approx": "",
+   "company_name": "Kafolat Sug'urta"
   }
  ]
 }
